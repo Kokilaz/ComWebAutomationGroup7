@@ -3,20 +3,18 @@
 <suite verbose="0" name="Failed suite [Command line suite]">
   <test thread-count="5" verbose="0" name="Command line test(failed)">
     <classes>
-      <class name="TestHomePage.TestAmazonHomePageSignin">
+      <class name="TestHomePage.TestAmazonCategories">
         <methods>
-          <include name="setclickSigin"/>
+          <include name="initialize"/>
           <include name="afterEachTestMethod"/>
-          <include name="setgiveEmail"/>
+          <include name="getfineart"/>
           <include name="cleanUp"/>
-          <include name="settypePassword"/>
           <include name="startExtent"/>
           <include name="setUp"/>
           <include name="extentSetup"/>
           <include name="generateReport"/>
-          <include name="initialize"/>
         </methods>
-      </class> <!-- TestHomePage.TestAmazonHomePageSignin -->
+      </class> <!-- TestHomePage.TestAmazonCategories -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->

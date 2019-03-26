@@ -4,6 +4,27 @@
     <list default="true" id="078a415c-2bf2-4749-905b-bebc8093bb6b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Amazon/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/src/test/java/TestHomePage/TestAmazonHomePageSignin.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/test/java/TestHomePage/TestAmazonHomePageSignin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/Command line suite/Command line test.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/Command line suite/Command line test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/Command line suite/Command line test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/Command line suite/Command line test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/Command line suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/Command line suite/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/junitreports/TEST-TestHomePage.TestAmazonHomePageSignin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/junitreports/TEST-TestHomePage.TestAmazonHomePageSignin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/junitreports/TEST-TestHomePage.TestAmazonMain.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/junitreports/TEST-TestHomePage.TestAmazonMain.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/old/Command line suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/old/Command line suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/old/Command line suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/old/Command line suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/old/Command line suite/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/old/Command line suite/methods-not-run.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/old/Command line suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/old/Command line suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/old/Command line suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/old/Command line suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/old/Command line suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/old/Command line suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/surefire-reports/testng-results.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
@@ -17,38 +38,63 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/HomePage/AmazonHomePageSignin.java">
+        <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/HomePage/AmazonCategories.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="-1376">
+              <caret line="70" column="8" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1007#1008#0" expanded="true" />
-                <element signature="e#1036#1037#0" expanded="true" />
-                <element signature="e#1066#1067#0" expanded="true" />
-                <element signature="e#1124#1125#0" expanded="true" />
-                <element signature="e#1285#1286#0" expanded="true" />
-                <element signature="e#1305#1306#0" expanded="true" />
-                <element signature="e#1157#1158#0" expanded="true" />
-                <element signature="e#1210#1211#0" expanded="true" />
-                <element signature="e#1241#1242#0" expanded="true" />
-                <element signature="e#1276#1277#0" expanded="true" />
+                <element signature="e#5011#5012#0" expanded="true" />
+                <element signature="e#5045#5046#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/TestHomePage/TestAmazonHomePageSignin.java">
+        <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/TestHomePage/TestAmazonCategories.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="1215">
+              <caret line="81" selection-start-line="81" selection-end-line="81" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#581#582#0" expanded="true" />
-                <element signature="e#628#629#0" expanded="true" />
-                <element signature="e#953#954#0" expanded="true" />
-                <element signature="e#1004#1005#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#588#589#0" expanded="true" />
+                <element signature="e#629#630#0" expanded="true" />
+                <element signature="e#674#675#0" expanded="true" />
+                <element signature="e#717#718#0" expanded="true" />
+                <element signature="e#764#765#0" expanded="true" />
+                <element signature="e#810#811#0" expanded="true" />
+                <element signature="e#860#861#0" expanded="true" />
+                <element signature="e#900#901#0" expanded="true" />
+                <element signature="e#944#945#0" expanded="true" />
+                <element signature="e#989#990#0" expanded="true" />
+                <element signature="e#1038#1039#0" expanded="true" />
+                <element signature="e#1080#1081#0" expanded="true" />
+                <element signature="e#1126#1127#0" expanded="true" />
+                <element signature="e#1166#1167#0" expanded="true" />
+                <element signature="e#1210#1211#0" expanded="true" />
+                <element signature="e#1251#1252#0" expanded="true" />
+                <element signature="e#1296#1297#0" expanded="true" />
+                <element signature="e#1337#1338#0" expanded="true" />
+                <element signature="e#1382#1383#0" expanded="true" />
+                <element signature="e#1422#1423#0" expanded="true" />
+                <element signature="e#1466#1467#0" expanded="true" />
+                <element signature="e#1506#1507#0" expanded="true" />
+                <element signature="e#1550#1551#0" expanded="true" />
+                <element signature="e#1634#1635#0" expanded="true" />
+                <element signature="e#1681#1682#0" expanded="true" />
+                <element signature="e#1732#1733#0" expanded="true" />
+                <element signature="e#1780#1781#0" expanded="true" />
+                <element signature="e#1832#1833#0" expanded="true" />
+                <element signature="e#1878#1879#0" expanded="true" />
+                <element signature="e#1928#1929#0" expanded="true" />
+                <element signature="e#1974#1975#0" expanded="true" />
+                <element signature="e#2024#2025#0" expanded="true" />
+                <element signature="e#2068#2069#0" expanded="true" />
+                <element signature="e#2116#2117#0" expanded="true" />
+                <element signature="e#2161#2162#0" expanded="true" />
+                <element signature="e#2210#2211#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,7 +123,9 @@
         <option value="$PROJECT_DIR$/Amazon/src/main/java/HomePage/AmazonMain.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/TestHomePage/TestAmazonMain.java" />
         <option value="$PROJECT_DIR$/Amazon/src/main/java/HomePage/AmazonHomePageSignin.java" />
+        <option value="$PROJECT_DIR$/Amazon/src/test/java/TestHomePage/TestAmazonCategories.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/TestHomePage/TestAmazonHomePageSignin.java" />
+        <option value="$PROJECT_DIR$/Amazon/src/main/java/HomePage/AmazonCategories.java" />
       </list>
     </option>
   </component>
@@ -114,8 +162,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="32" />
-    <option name="y" value="50" />
+    <option name="x" value="-11" />
+    <option name="y" value="53" />
     <option name="width" value="1124" />
     <option name="height" value="740" />
   </component>
@@ -252,7 +300,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553630167413" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553631809381" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -282,7 +330,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestAmazonHomePageSignin.setopenlogin">
+  <component name="RunManager" selected="TestNG.TestAmazonCategories.getMovies">
     <configuration name="ConnectToSqlDB" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Databases.ConnectToSqlDB" />
       <module name="Generic" />
@@ -296,7 +344,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAmazonHomePageSignin.getbeforepassword" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAmazonCategories.getMovies" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon" />
       <extension name="coverage">
         <pattern>
@@ -305,8 +353,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestHomePage" />
-      <option name="MAIN_CLASS_NAME" value="TestHomePage.TestAmazonHomePageSignin" />
-      <option name="METHOD_NAME" value="getbeforepassword" />
+      <option name="MAIN_CLASS_NAME" value="TestHomePage.TestAmazonCategories" />
+      <option name="METHOD_NAME" value="getMovies" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAmazonCategories.getitemsofBoys" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Amazon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestHomePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestHomePage" />
+      <option name="MAIN_CLASS_NAME" value="TestHomePage.TestAmazonCategories" />
+      <option name="METHOD_NAME" value="getitemsofBoys" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -368,31 +434,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAmazonMain.getSearchbar" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Amazon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestHomePage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestHomePage" />
-      <option name="MAIN_CLASS_NAME" value="TestHomePage.TestAmazonMain" />
-      <option name="METHOD_NAME" value="getSearchbar" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestAmazonCategories.getMovies" />
+        <item itemvalue="TestNG.TestAmazonCategories.getitemsofBoys" />
         <item itemvalue="TestNG.TestAmazonHomePageSignin.setopenlogin" />
         <item itemvalue="TestNG.TestAmazonHomePageSignin.setOpenPageLogin" />
         <item itemvalue="TestNG.TestAmazonHomePageSignin.setgiveEmail" />
-        <item itemvalue="TestNG.TestAmazonHomePageSignin.getbeforepassword" />
-        <item itemvalue="TestNG.TestAmazonMain.getSearchbar" />
       </list>
     </recent_temporary>
   </component>
@@ -417,24 +465,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestAmazonMain_getSearchbar - 2019.03.26 at 15h 04m 41s.xml">
-      <configuration name="TestAmazonMain.getSearchbar" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestAmazonHomePageSignin_setopenlogin - 2019.03.26 at 15h 34m 43s.xml">
-      <configuration name="TestAmazonHomePageSignin.setopenlogin" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestAmazonHomePageSignin_setgiveEmail - 2019.03.26 at 15h 35m 06s.xml">
-      <configuration name="TestAmazonHomePageSignin.setgiveEmail" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestAmazonHomePageSignin_setgiveEmail - 2019.03.26 at 15h 37m 12s.xml">
-      <configuration name="TestAmazonHomePageSignin.setgiveEmail" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestAmazonHomePageSignin_getbeforepassword - 2019.03.26 at 15h 50m 48s.xml">
-      <configuration name="TestAmazonHomePageSignin.getbeforepassword" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestAmazonHomePageSignin_setOpenPageLogin - 2019.03.26 at 15h 51m 05s.xml">
-      <configuration name="TestAmazonHomePageSignin.setOpenPageLogin" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestAmazonHomePageSignin_setgiveEmail - 2019.03.26 at 15h 52m 02s.xml">
       <configuration name="TestAmazonHomePageSignin.setgiveEmail" configurationId="TestNG" />
     </history-entry>
@@ -447,10 +477,27 @@
     <history-entry file="TestAmazonHomePageSignin_setopenlogin - 2019.03.26 at 15h 54m 04s.xml">
       <configuration name="TestAmazonHomePageSignin.setopenlogin" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestAmazonCategories_getitemsofBoys - 2019.03.26 at 16h 07m 59s.xml">
+      <configuration name="TestAmazonCategories.getitemsofBoys" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestAmazonCategories_getitemsofBoys - 2019.03.26 at 16h 09m 10s.xml">
+      <configuration name="TestAmazonCategories.getitemsofBoys" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestAmazonCategories_getMovies - 2019.03.26 at 16h 10m 35s.xml">
+      <configuration name="TestAmazonCategories.getMovies" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestAmazonCategories_getMovies - 2019.03.26 at 16h 11m 05s.xml">
+      <configuration name="TestAmazonCategories.getMovies" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestAmazonCategories_getMovies - 2019.03.26 at 16h 11m 52s.xml">
+      <configuration name="TestAmazonCategories.getMovies" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestAmazonCategories_getMovies - 2019.03.26 at 16h 13m 12s.xml">
+      <configuration name="TestAmazonCategories.getMovies" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="32" y="50" width="1124" height="740" extended-state="0" />
-    <editor active="true" />
+    <frame x="-11" y="53" width="1124" height="740" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2495379" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -474,7 +521,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.17097966" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.17097966" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -662,8 +709,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/TestHomePage/TestAmazonHomePageSignin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="405">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#581#582#0" expanded="true" />
@@ -676,7 +723,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/HomePage/AmazonHomePageSignin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
+        <state relative-caret-position="645">
           <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -690,6 +737,65 @@
             <element signature="e#1210#1211#0" expanded="true" />
             <element signature="e#1241#1242#0" expanded="true" />
             <element signature="e#1276#1277#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/TestHomePage/TestAmazonCategories.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+            <element signature="e#1038#1039#0" expanded="true" />
+            <element signature="e#1080#1081#0" expanded="true" />
+            <element signature="e#1126#1127#0" expanded="true" />
+            <element signature="e#1166#1167#0" expanded="true" />
+            <element signature="e#1210#1211#0" expanded="true" />
+            <element signature="e#1251#1252#0" expanded="true" />
+            <element signature="e#1296#1297#0" expanded="true" />
+            <element signature="e#1337#1338#0" expanded="true" />
+            <element signature="e#1382#1383#0" expanded="true" />
+            <element signature="e#1422#1423#0" expanded="true" />
+            <element signature="e#1466#1467#0" expanded="true" />
+            <element signature="e#1506#1507#0" expanded="true" />
+            <element signature="e#1550#1551#0" expanded="true" />
+            <element signature="e#1634#1635#0" expanded="true" />
+            <element signature="e#1681#1682#0" expanded="true" />
+            <element signature="e#1732#1733#0" expanded="true" />
+            <element signature="e#1780#1781#0" expanded="true" />
+            <element signature="e#1832#1833#0" expanded="true" />
+            <element signature="e#1878#1879#0" expanded="true" />
+            <element signature="e#1928#1929#0" expanded="true" />
+            <element signature="e#1974#1975#0" expanded="true" />
+            <element signature="e#2024#2025#0" expanded="true" />
+            <element signature="e#2068#2069#0" expanded="true" />
+            <element signature="e#2116#2117#0" expanded="true" />
+            <element signature="e#2161#2162#0" expanded="true" />
+            <element signature="e#2210#2211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/HomePage/AmazonCategories.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1376">
+          <caret line="70" column="8" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5011#5012#0" expanded="true" />
+            <element signature="e#5045#5046#0" expanded="true" />
           </folding>
         </state>
       </provider>

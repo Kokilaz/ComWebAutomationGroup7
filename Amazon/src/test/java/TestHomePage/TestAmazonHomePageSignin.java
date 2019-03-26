@@ -26,7 +26,4 @@ public class TestAmazonHomePageSignin extends AmazonHomePageSignin {
         amazonHomePageSignin.openpageLogin();
     }
 
-
-
-
 }
