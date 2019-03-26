@@ -10,7 +10,8 @@ import org.bson.Document;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ConnectToMongoDB {
+public class
+ConnectToMongoDB {
 
     public static MongoDatabase mongoDatabase = null;
 
