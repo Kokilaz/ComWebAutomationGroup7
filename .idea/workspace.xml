@@ -2,12 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="078a415c-2bf2-4749-905b-bebc8093bb6b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComWebAutomationGroup7.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/secret.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/secret.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/browser-driver/IEDriverServer.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/browser-driver/chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/browser-driver/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/browser-driver/geckodriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/browser-driver/geckodriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/Databases/ConnectToMongoDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/Databases/ConnectToSqlDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/Databases/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/Reporting/ApplicationLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/Reporting/ExtentManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/Reporting/ExtentTestManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/Reporting/TestLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/Utility/DataReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/secret.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/Base/CommonAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/Databases/ConnectToMongoDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/Databases/ConnectToSqlDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/Databases/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/Reporting/ApplicationLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/Reporting/ExtentManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/Reporting/ExtentTestManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/Reporting/TestLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/Utility/DataReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
+    <ignored path="$PROJECT_DIR$/Amazon/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/Databases/ConnectToSqlDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2010">
-              <caret line="134" column="13" lean-forward="true" selection-start-line="134" selection-start-column="13" selection-end-line="134" selection-end-column="13" />
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="211" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,11 +62,67 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5630">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="3547">
+              <caret line="302" column="32" selection-start-line="302" selection-start-column="32" selection-end-line="302" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#12832#12833#0" expanded="true" />
+                <element signature="e#12893#12894#0" expanded="true" />
+                <element signature="e#12952#12953#0" expanded="true" />
+                <element signature="e#13027#13028#0" expanded="true" />
+                <element signature="e#13240#13241#0" expanded="true" />
+                <element signature="e#13309#13310#0" expanded="true" />
+                <element signature="e#13358#13359#0" expanded="true" />
+                <element signature="e#13438#13439#0" expanded="true" />
+                <element signature="e#13489#13490#0" expanded="true" />
+                <element signature="e#13556#13557#0" expanded="true" />
+                <element signature="e#13675#13687#0" expanded="true" />
+                <element signature="e#13891#13903#0" expanded="true" />
+                <element signature="e#13948#13956#0" expanded="true" />
+                <element signature="e#14308#14320#0" expanded="true" />
+                <element signature="e#14365#14373#0" expanded="true" />
+                <element signature="e#14711#14723#0" expanded="true" />
+                <element signature="e#19460#19461#0" expanded="true" />
+                <element signature="e#19527#19528#0" expanded="true" />
+                <element signature="e#19572#19573#0" expanded="true" />
+                <element signature="e#19652#19653#0" expanded="true" />
+                <element signature="e#19836#19844#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Amazon/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/HomePage/AmazonMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/TestHomePage/TestAmazonMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,7 +161,7 @@
         <entry file="file://$PROJECT_DIR$/Generic/src/main/secret.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="74" />
+              <caret line="1" column="74" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -80,12 +170,19 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1170">
-              <caret line="78" column="32" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
+              <caret line="79" column="32" selection-start-line="79" selection-start-column="32" selection-end-line="79" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -97,6 +194,9 @@
         <option value="$PROJECT_DIR$/Generic/src/main/java/Databases/ConnectToMongoDB.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/secret.properties" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/Databases/ConnectToSqlDB.java" />
+        <option value="$PROJECT_DIR$/Amazon/pom.xml" />
+        <option value="$PROJECT_DIR$/Amazon/src/main/java/HomePage/AmazonMain.java" />
+        <option value="$PROJECT_DIR$/Amazon/src/test/java/TestHomePage/TestAmazonMain.java" />
       </list>
     </option>
   </component>
@@ -112,15 +212,6 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ComWebAutomationGroup7" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="ComWebAutomationGroup7" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="Generic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
@@ -133,12 +224,14 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="104" />
-    <option name="y" value="119" />
-    <option name="width" value="1336" />
-    <option name="height" value="717" />
+    <option name="x" value="102" />
+    <option name="y" value="83" />
+    <option name="width" value="838" />
+    <option name="height" value="740" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -155,7 +248,72 @@
             <path>
               <item name="ComWebAutomationGroup7" type="b2602c69:ProjectViewProjectNode" />
               <item name="ComWebAutomationGroup7" type="462c0819:PsiDirectoryNode" />
+              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ComWebAutomationGroup7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ComWebAutomationGroup7" type="462c0819:PsiDirectoryNode" />
+              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ComWebAutomationGroup7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ComWebAutomationGroup7" type="462c0819:PsiDirectoryNode" />
+              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ComWebAutomationGroup7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ComWebAutomationGroup7" type="462c0819:PsiDirectoryNode" />
+              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ComWebAutomationGroup7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ComWebAutomationGroup7" type="462c0819:PsiDirectoryNode" />
+              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="HomePage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ComWebAutomationGroup7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ComWebAutomationGroup7" type="462c0819:PsiDirectoryNode" />
+              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ComWebAutomationGroup7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ComWebAutomationGroup7" type="462c0819:PsiDirectoryNode" />
+              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ComWebAutomationGroup7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ComWebAutomationGroup7" type="462c0819:PsiDirectoryNode" />
+              <item name="Amazon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TestHomePage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ComWebAutomationGroup7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ComWebAutomationGroup7" type="462c0819:PsiDirectoryNode" />
               <item name="Generic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ComWebAutomationGroup7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ComWebAutomationGroup7" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="sql-driver" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ComWebAutomationGroup7" type="b2602c69:ProjectViewProjectNode" />
@@ -204,7 +362,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553613324633" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553627070118" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -234,7 +392,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConnectToSqlDB">
+  <component name="RunManager" selected="TestNG.TestAmazonMain.getSearchbar">
     <configuration name="ConnectToMongoDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Databases.ConnectToMongoDB" />
       <module name="Generic" />
@@ -261,8 +419,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestAmazonMain.getSearchbar" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Amazon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestHomePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestHomePage" />
+      <option name="MAIN_CLASS_NAME" value="TestHomePage.TestAmazonMain" />
+      <option name="METHOD_NAME" value="getSearchbar" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestAmazonMain.getSearchbar" />
         <item itemvalue="Application.ConnectToMongoDB" />
       </list>
     </recent_temporary>
@@ -288,9 +465,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="104" y="119" width="1336" height="717" extended-state="0" />
+    <frame x="54" y="141" width="838" height="740" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2534776" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2575377" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -299,12 +476,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3296" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29166666" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3296" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.28892004" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3296" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3296" />
@@ -312,7 +489,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.0942813" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.17195767" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -361,21 +538,21 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1170">
-          <caret line="78" column="32" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
+          <caret line="79" column="32" selection-start-line="79" selection-start-column="32" selection-end-line="79" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/secret.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="74" />
+          <caret line="1" column="74" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/Databases/ConnectToSqlDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2010">
-          <caret line="134" column="13" lean-forward="true" selection-start-line="134" selection-start-column="13" selection-end-line="134" selection-end-column="13" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="211" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -384,8 +561,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5630">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="3547">
+          <caret line="302" column="32" selection-start-line="302" selection-start-column="32" selection-end-line="302" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#12832#12833#0" expanded="true" />
+            <element signature="e#12893#12894#0" expanded="true" />
+            <element signature="e#12952#12953#0" expanded="true" />
+            <element signature="e#13027#13028#0" expanded="true" />
+            <element signature="e#13240#13241#0" expanded="true" />
+            <element signature="e#13309#13310#0" expanded="true" />
+            <element signature="e#13358#13359#0" expanded="true" />
+            <element signature="e#13438#13439#0" expanded="true" />
+            <element signature="e#13489#13490#0" expanded="true" />
+            <element signature="e#13556#13557#0" expanded="true" />
+            <element signature="e#13675#13687#0" expanded="true" />
+            <element signature="e#13891#13903#0" expanded="true" />
+            <element signature="e#13948#13956#0" expanded="true" />
+            <element signature="e#14308#14320#0" expanded="true" />
+            <element signature="e#14365#14373#0" expanded="true" />
+            <element signature="e#14711#14723#0" expanded="true" />
+            <element signature="e#19460#19461#0" expanded="true" />
+            <element signature="e#19527#19528#0" expanded="true" />
+            <element signature="e#19572#19573#0" expanded="true" />
+            <element signature="e#19652#19653#0" expanded="true" />
+            <element signature="e#19836#19844#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/main/java/HomePage/AmazonMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/TestHomePage/TestAmazonMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
