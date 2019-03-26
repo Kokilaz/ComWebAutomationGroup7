@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-TestHomePage.TestAmazonMain">
+              <span class="suite-name border-passed">TestHomePage.TestAmazonMain</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-TestHomePage.TestAmazonMain">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-TestHomePage.TestAmazonMain">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-TestHomePage.TestAmazonMain">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-TestHomePage.TestAmazonMain">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-TestHomePage.TestAmazonMain">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-TestHomePage.TestAmazonMain">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-TestHomePage.TestAmazonMain">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestHomePage.TestAmazonMain" class="hide-methods passed suite-TestHomePage.TestAmazonMain"> (hide)</a> <!-- hide-methods passed suite-TestHomePage.TestAmazonMain -->
+                      <a href="#" panel-name="suite-TestHomePage.TestAmazonMain" class="show-methods passed suite-TestHomePage.TestAmazonMain"> (show)</a> <!-- show-methods passed suite-TestHomePage.TestAmazonMain -->
+                    </span>
+                    <div class="method-list-content passed suite-TestHomePage.TestAmazonMain">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestHomePage.TestAmazonMain" title="TestHomePage.TestAmazonMain" hash-for-method="getArtsAutomotive">getArtsAutomotive</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestHomePage.TestAmazonMain" title="TestHomePage.TestAmazonMain" hash-for-method="getAutomotiveParts">getAutomotiveParts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestHomePage.TestAmazonMain" title="TestHomePage.TestAmazonMain" hash-for-method="getBeautyPersonal">getBeautyPersonal</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestHomePage.TestAmazonMain" title="TestHomePage.TestAmazonMain" hash-for-method="getBooks">getBooks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestHomePage.TestAmazonMain" title="TestHomePage.TestAmazonMain" hash-for-method="getCD">getCD</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestHomePage.TestAmazonMain" title="TestHomePage.TestAmazonMain" hash-for-method="getClicktryPrime">getClicktryPrime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestHomePage.TestAmazonMain" title="TestHomePage.TestAmazonMain" hash-for-method="getDeliverto">getDeliverto</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestHomePage.TestAmazonMain" title="TestHomePage.TestAmazonMain" hash-for-method="getSearchbar">getSearchbar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestHomePage.TestAmazonMain" title="TestHomePage.TestAmazonMain" hash-for-method="getSearchitem">getSearchitem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestHomePage.TestAmazonMain" title="TestHomePage.TestAmazonMain" hash-for-method="getSearchitems">getSearchitems</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestHomePage.TestAmazonMain" title="TestHomePage.TestAmazonMain" hash-for-method="getamazonFresh">getamazonFresh</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestHomePage.TestAmazonMain" title="TestHomePage.TestAmazonMain" hash-for-method="getcategorieBaby">getcategorieBaby</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestHomePage.TestAmazonMain" title="TestHomePage.TestAmazonMain" hash-for-method="getcategoryAlexa">getcategoryAlexa</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestHomePage.TestAmazonMain" title="TestHomePage.TestAmazonMain" hash-for-method="getcategoryAppliances">getcategoryAppliances</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestHomePage.TestAmazonMain" title="TestHomePage.TestAmazonMain" hash-for-method="getcategoryArtCrafts">getcategoryArtCrafts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestHomePage.TestAmazonMain" title="TestHomePage.TestAmazonMain" hash-for-method="getcategoryGames">getcategoryGames</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestHomePage.TestAmazonMain" title="TestHomePage.TestAmazonMain" hash-for-method="getselectgridSelectPrime">getselectgridSelectPrime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestHomePage.TestAmazonMain" title="TestHomePage.TestAmazonMain" hash-for-method="getshowAlexaSkills">getshowAlexaSkills</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestHomePage.TestAmazonMain -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TestHomePage.TestAmazonMain" class="panel TestHomePage.TestAmazonMain">
+          <div class="suite-TestHomePage.TestAmazonMain-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestHomePage.TestAmazonMain</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getArtsAutomotive">
+                  </a> <!-- getArtsAutomotive -->
+                  <span class="method-name">getArtsAutomotive</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAutomotiveParts">
+                  </a> <!-- getAutomotiveParts -->
+                  <span class="method-name">getAutomotiveParts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getBeautyPersonal">
+                  </a> <!-- getBeautyPersonal -->
+                  <span class="method-name">getBeautyPersonal</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getBooks">
+                  </a> <!-- getBooks -->
+                  <span class="method-name">getBooks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCD">
+                  </a> <!-- getCD -->
+                  <span class="method-name">getCD</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getClicktryPrime">
+                  </a> <!-- getClicktryPrime -->
+                  <span class="method-name">getClicktryPrime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getDeliverto">
+                  </a> <!-- getDeliverto -->
+                  <span class="method-name">getDeliverto</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getSearchbar">
+                  </a> <!-- getSearchbar -->
+                  <span class="method-name">getSearchbar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getSearchitem">
+                  </a> <!-- getSearchitem -->
+                  <span class="method-name">getSearchitem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getSearchitems">
+                  </a> <!-- getSearchitems -->
+                  <span class="method-name">getSearchitems</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getamazonFresh">
+                  </a> <!-- getamazonFresh -->
+                  <span class="method-name">getamazonFresh</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getcategorieBaby">
+                  </a> <!-- getcategorieBaby -->
+                  <span class="method-name">getcategorieBaby</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getcategoryAlexa">
+                  </a> <!-- getcategoryAlexa -->
+                  <span class="method-name">getcategoryAlexa</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getcategoryAppliances">
+                  </a> <!-- getcategoryAppliances -->
+                  <span class="method-name">getcategoryAppliances</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getcategoryArtCrafts">
+                  </a> <!-- getcategoryArtCrafts -->
+                  <span class="method-name">getcategoryArtCrafts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getcategoryGames">
+                  </a> <!-- getcategoryGames -->
+                  <span class="method-name">getcategoryGames</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getselectgridSelectPrime">
+                  </a> <!-- getselectgridSelectPrime -->
+                  <span class="method-name">getselectgridSelectPrime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getshowAlexaSkills">
+                  </a> <!-- getshowAlexaSkills -->
+                  <span class="method-name">getshowAlexaSkills</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestHomePage.TestAmazonMain-class-passed -->
+        </div> <!-- panel TestHomePage.TestAmazonMain -->
+        <div panel-name="test-xml-TestHomePage.TestAmazonMain" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;TestHomePage.TestAmazonMain&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Command line test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestHomePage.TestAmazonMain&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- TestHomePage.TestAmazonMain --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestHomePage.TestAmazonMain" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestHomePage.TestAmazonMain</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestHomePage.TestAmazonMain" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestHomePage.TestAmazonMain</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestHomePage.TestAmazonMain" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestHomePage.TestAmazonMain</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestHomePage.TestAmazonMain');
+function tableData_TestHomePage.TestAmazonMain() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getcategoryAlexa')
+data.setCell(0, 2, 'TestHomePage.TestAmazonMain')
+data.setCell(0, 3, 3724);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'getcategoryArtCrafts')
+data.setCell(1, 2, 'TestHomePage.TestAmazonMain')
+data.setCell(1, 3, 3288);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getBeautyPersonal')
+data.setCell(2, 2, 'TestHomePage.TestAmazonMain')
+data.setCell(2, 3, 3181);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'getamazonFresh')
+data.setCell(3, 2, 'TestHomePage.TestAmazonMain')
+data.setCell(3, 3, 3086);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'getcategorieBaby')
+data.setCell(4, 2, 'TestHomePage.TestAmazonMain')
+data.setCell(4, 3, 2906);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'getBooks')
+data.setCell(5, 2, 'TestHomePage.TestAmazonMain')
+data.setCell(5, 3, 2655);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'getArtsAutomotive')
+data.setCell(6, 2, 'TestHomePage.TestAmazonMain')
+data.setCell(6, 3, 2494);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'getcategoryAppliances')
+data.setCell(7, 2, 'TestHomePage.TestAmazonMain')
+data.setCell(7, 3, 2334);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'getcategoryGames')
+data.setCell(8, 2, 'TestHomePage.TestAmazonMain')
+data.setCell(8, 3, 2249);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'getAutomotiveParts')
+data.setCell(9, 2, 'TestHomePage.TestAmazonMain')
+data.setCell(9, 3, 2056);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'getCD')
+data.setCell(10, 2, 'TestHomePage.TestAmazonMain')
+data.setCell(10, 3, 2052);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'getSearchitem')
+data.setCell(11, 2, 'TestHomePage.TestAmazonMain')
+data.setCell(11, 3, 1456);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'getselectgridSelectPrime')
+data.setCell(12, 2, 'TestHomePage.TestAmazonMain')
+data.setCell(12, 3, 1008);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'getClicktryPrime')
+data.setCell(13, 2, 'TestHomePage.TestAmazonMain')
+data.setCell(13, 3, 964);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'getshowAlexaSkills')
+data.setCell(14, 2, 'TestHomePage.TestAmazonMain')
+data.setCell(14, 3, 553);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'getSearchbar')
+data.setCell(15, 2, 'TestHomePage.TestAmazonMain')
+data.setCell(15, 3, 508);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'getSearchitems')
+data.setCell(16, 2, 'TestHomePage.TestAmazonMain')
+data.setCell(16, 3, 374);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'getDeliverto')
+data.setCell(17, 2, 'TestHomePage.TestAmazonMain')
+data.setCell(17, 3, 132);
+window.suiteTableData['TestHomePage.TestAmazonMain']= { tableData: data, tableDiv: 'times-div-TestHomePage.TestAmazonMain'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 35 seconds</span>
+              <div id="times-div-TestHomePage.TestAmazonMain">
+              </div> <!-- times-div-TestHomePage.TestAmazonMain -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestHomePage.TestAmazonMain" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestHomePage.TestAmazonMain</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestHomePage.TestAmazonMain" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestHomePage.TestAmazonMain" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestHomePage.TestAmazonMain</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">extentSetup(org.testng.TestRunner@38320e34)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome-options, 34, http://www.amazon.com)</span>
+                <span class="method-start">130 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void TestHomePage.TestAmazonMain.getArtsAutomotive())</span>
+                <span class="method-start">2502 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">2506 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getArtsAutomotive</span>
+                <span class="method-start">4091 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=getArtsAutomotive status=SUCCESS method=TestAmazonMain.getArtsAutomotive()[pri:0, i...)</span>
+                <span class="method-start">6585 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">6863 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome-options, 34, http://www.amazon.com)</span>
+                <span class="method-start">6864 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void TestHomePage.TestAmazonMain.getAutomotiveParts())</span>
+                <span class="method-start">9352 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">9352 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getAutomotiveParts</span>
+                <span class="method-start">10188 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=getAutomotiveParts status=SUCCESS method=TestAmazonMain.getAutomotiveParts()[pri:0,...)</span>
+                <span class="method-start">12244 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">12406 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome-options, 34, http://www.amazon.com)</span>
+                <span class="method-start">12406 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void TestHomePage.TestAmazonMain.getBeautyPersonal())</span>
+                <span class="method-start">14899 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">14899 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getBeautyPersonal</span>
+                <span class="method-start">15861 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=getBeautyPersonal status=SUCCESS method=TestAmazonMain.getBeautyPersonal()[pri:0, i...)</span>
+                <span class="method-start">19042 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">19189 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome-options, 34, http://www.amazon.com)</span>
+                <span class="method-start">19189 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void TestHomePage.TestAmazonMain.getBooks())</span>
+                <span class="method-start">21117 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">21118 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getBooks</span>
+                <span class="method-start">22328 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=getBooks status=SUCCESS method=TestAmazonMain.getBooks()[pri:0, instance:TestHomePa...)</span>
+                <span class="method-start">24984 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">25132 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome-options, 34, http://www.amazon.com)</span>
+                <span class="method-start">25132 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void TestHomePage.TestAmazonMain.getCD())</span>
+                <span class="method-start">27338 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">27338 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getCD</span>
+                <span class="method-start">28704 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=getCD status=SUCCESS method=TestAmazonMain.getCD()[pri:0, instance:TestHomePage.Tes...)</span>
+                <span class="method-start">30756 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">30929 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome-options, 34, http://www.amazon.com)</span>
+                <span class="method-start">30930 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void TestHomePage.TestAmazonMain.getClicktryPrime())</span>
+                <span class="method-start">33110 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">33111 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getClicktryPrime</span>
+                <span class="method-start">33944 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=getClicktryPrime status=SUCCESS method=TestAmazonMain.getClicktryPrime()[pri:0, ins...)</span>
+                <span class="method-start">34909 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">35055 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome-options, 34, http://www.amazon.com)</span>
+                <span class="method-start">35055 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void TestHomePage.TestAmazonMain.getDeliverto())</span>
+                <span class="method-start">37393 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">37393 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getDeliverto</span>
+                <span class="method-start">38840 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=getDeliverto status=SUCCESS method=TestAmazonMain.getDeliverto()[pri:0, instance:Te...)</span>
+                <span class="method-start">38973 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">39117 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome-options, 34, http://www.amazon.com)</span>
+                <span class="method-start">39117 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void TestHomePage.TestAmazonMain.getSearchbar())</span>
+                <span class="method-start">41689 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">41689 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getSearchbar</span>
+                <span class="method-start">42454 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=getSearchbar status=SUCCESS method=TestAmazonMain.getSearchbar()[pri:0, instance:Te...)</span>
+                <span class="method-start">42962 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">43088 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome-options, 34, http://www.amazon.com)</span>
+                <span class="method-start">43089 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void TestHomePage.TestAmazonMain.getSearchitem())</span>
+                <span class="method-start">45396 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">45396 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getSearchitem</span>
+                <span class="method-start">46607 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=getSearchitem status=SUCCESS method=TestAmazonMain.getSearchitem()[pri:0, instance:...)</span>
+                <span class="method-start">48063 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">48194 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome-options, 34, http://www.amazon.com)</span>
+                <span class="method-start">48194 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void TestHomePage.TestAmazonMain.getSearchitems())</span>
+                <span class="method-start">50693 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">50694 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getSearchitems</span>
+                <span class="method-start">52049 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=getSearchitems status=SUCCESS method=TestAmazonMain.getSearchitems()[pri:0, instanc...)</span>
+                <span class="method-start">52423 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">52555 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome-options, 34, http://www.amazon.com)</span>
+                <span class="method-start">52555 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void TestHomePage.TestAmazonMain.getamazonFresh())</span>
+                <span class="method-start">54887 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">54887 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getamazonFresh</span>
+                <span class="method-start">56415 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=getamazonFresh status=SUCCESS method=TestAmazonMain.getamazonFresh()[pri:0, instanc...)</span>
+                <span class="method-start">59501 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">59652 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome-options, 34, http://www.amazon.com)</span>
+                <span class="method-start">59652 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void TestHomePage.TestAmazonMain.getcategorieBaby())</span>
+                <span class="method-start">62105 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">62105 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getcategorieBaby</span>
+                <span class="method-start">63429 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=getcategorieBaby status=SUCCESS method=TestAmazonMain.getcategorieBaby()[pri:0, ins...)</span>
+                <span class="method-start">66335 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">66483 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome-options, 34, http://www.amazon.com)</span>
+                <span class="method-start">66484 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void TestHomePage.TestAmazonMain.getcategoryAlexa())</span>
+                <span class="method-start">68958 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">68958 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getcategoryAlexa</span>
+                <span class="method-start">70183 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=getcategoryAlexa status=SUCCESS method=TestAmazonMain.getcategoryAlexa()[pri:0, ins...)</span>
+                <span class="method-start">73907 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">74077 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome-options, 34, http://www.amazon.com)</span>
+                <span class="method-start">74077 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void TestHomePage.TestAmazonMain.getcategoryAppliances())</span>
+                <span class="method-start">76643 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">76644 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getcategoryAppliances</span>
+                <span class="method-start">77595 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=getcategoryAppliances status=SUCCESS method=TestAmazonMain.getcategoryAppliances()[...)</span>
+                <span class="method-start">79929 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">80152 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome-options, 34, http://www.amazon.com)</span>
+                <span class="method-start">80152 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void TestHomePage.TestAmazonMain.getcategoryArtCrafts())</span>
+                <span class="method-start">82271 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">82272 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getcategoryArtCrafts</span>
+                <span class="method-start">83473 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=getcategoryArtCrafts status=SUCCESS method=TestAmazonMain.getcategoryArtCrafts()[pr...)</span>
+                <span class="method-start">86762 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">86924 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome-options, 34, http://www.amazon.com)</span>
+                <span class="method-start">86924 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void TestHomePage.TestAmazonMain.getcategoryGames())</span>
+                <span class="method-start">89489 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">89490 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getcategoryGames</span>
+                <span class="method-start">90579 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=getcategoryGames status=SUCCESS method=TestAmazonMain.getcategoryGames()[pri:0, ins...)</span>
+                <span class="method-start">92828 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">92973 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome-options, 34, http://www.amazon.com)</span>
+                <span class="method-start">92974 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void TestHomePage.TestAmazonMain.getselectgridSelectPrime())</span>
+                <span class="method-start">95125 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">95126 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getselectgridSelectPrime</span>
+                <span class="method-start">96150 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=getselectgridSelectPrime status=SUCCESS method=TestAmazonMain.getselectgridSelectPr...)</span>
+                <span class="method-start">97158 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">97290 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, false, OS X, 10, chrome-options, 34, http://www.amazon.com)</span>
+                <span class="method-start">97291 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void TestHomePage.TestAmazonMain.getshowAlexaSkills())</span>
+                <span class="method-start">99379 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">99379 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getshowAlexaSkills</span>
+                <span class="method-start">100030 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=getshowAlexaSkills status=SUCCESS method=TestAmazonMain.getshowAlexaSkills()[pri:0,...)</span>
+                <span class="method-start">100583 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">100705 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">generateReport</span>
+                <span class="method-start">100721 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
