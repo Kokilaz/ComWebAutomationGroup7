@@ -92,6 +92,14 @@ public class AmazonMain extends CommonAPI {
         Searchbar.click();
     }
 
+    public void getTitle(){
+        String Url = "https://www.amazon.com";
+        driver.get(Url);
+        driver.getTitle();
+        System.out.println(driver.getTitle());
+    }
+
+
     public void setSearchItems(){
         SearchItems.sendKeys("iphone xs");
     }

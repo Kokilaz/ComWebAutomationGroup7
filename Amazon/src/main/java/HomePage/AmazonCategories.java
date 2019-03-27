@@ -6,6 +6,8 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import java.util.List;
+
 public class AmazonCategories extends CommonAPI {
 
     @FindBy(xpath = "//option[@value='search-alias=fashion-baby']")
@@ -65,6 +67,82 @@ public class AmazonCategories extends CommonAPI {
     @FindBy(css ="#searchDropdownBox")
     WebElement itemsofBoys;
 
+    @FindBy(xpath = "//option[@value='search-alias=handmade']")
+    WebElement Handmade;
+
+    @FindBy(xpath = "//option[@value='search-alias=hpc']")
+    WebElement HouseholdandCare;
+
+    @FindBy(xpath = "//option[@value='search-alias=local-services']")
+    WebElement BusinessServices;
+
+    @FindBy(xpath = "//option[@value='search-alias=garden']")
+    WebElement HomeAndKitchen;
+
+    @FindBy(xpath = "//option[@value='search-alias=industrial']")
+    WebElement IndustrialAndScientific;
+
+    @FindBy(xpath = "//option[@value='search-alias=digital-text']" )
+    WebElement KindleStore;
+
+    @FindBy(xpath = "//option[@value='search-alias=fashion-luggage']")
+    WebElement LuggageAndTravel;
+
+    @FindBy(xpath = "//option[@value='search-alias=luxury-beauty']" )
+    WebElement LuxuryBeauty;
+
+    @FindBy(xpath = "//option[@value='search-alias=magazines']" )
+    WebElement MagazineSubscriptions;
+
+    @FindBy(xpath = "//option[@value='search-alias=movies-tv']")
+    WebElement MoviesAndTv;
+
+    @FindBy(xpath = "//option[@value='search-alias=mi']")
+    WebElement MusicalInstruments;
+
+    @FindBy(xpath = "//option[@value='search-alias=office-products']" )
+    WebElement OfficeProducts;
+
+    @FindBy(xpath = "//option[@value='search-alias=pets']" )
+    WebElement PetSupplies;
+
+    @FindBy(xpath = "//option[@value='search-alias=prime-exclusive']")
+    WebElement PrimeExclusiveSavings;
+
+    @FindBy(xpath = "//option[@value='search-alias=pantry']")
+    WebElement PrimePantry;
+
+    @FindBy(xpath = "//option[@value='search-alias=instant-video']" )
+    WebElement PrimeVideo;
+
+    @FindBy(xpath = "//option[@value='search-alias=software']")
+    WebElement Software;
+
+    @FindBy(xpath = "//option[@value='search-alias=sporting']" )
+    WebElement SportsAndOutdoors;
+
+    @FindBy(xpath = "//option[@value='search-alias=tools']")
+    WebElement ToolsHomeImprovements;
+
+    @FindBy(xpath = "//option[@value='search-alias=toys-and-games']")
+    WebElement ToysAndGames;
+
+    @FindBy(xpath = "//option[@value='search-alias=vehicles']" )
+    WebElement Vehicles;
+
+    @FindBy(xpath = "//option[@value='search-alias=videogames']")
+    WebElement VideoGames;
+
+    @FindBy(css = "#searchDropdownBox")
+    WebElement Categories;
+
+
+    public void setCategories() {
+        List<WebElement> categories = driver.findElements(By.cssSelector("#searchDropdownBox"));
+        for (WebElement search : categories) {
+            System.out.println(search.getText());
+        }
+    }
 
     public void setBabyFashion(){
         BabyFashion.click();
@@ -178,6 +256,138 @@ public class AmazonCategories extends CommonAPI {
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Boys", Keys.ENTER);
     }
 
+
+    public void setHandmade(){
+        Handmade.click();
+        driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("handmade", Keys.ENTER);
+    }
+
+
+    public void setHouseholdandCare(){
+        HouseholdandCare.click();
+        driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Health, Household & Baby Care", Keys.ENTER);
+
+    }
+
+
+    public void setBusinessServices(){
+        BusinessServices.click();
+        driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Home & Business Services", Keys.ENTER);
+    }
+
+
+    public void setHomeAndKitchen(){
+        HomeAndKitchen.click();
+        driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Home & Kitchen", Keys.ENTER);
+    }
+
+    public void setIndustrialAndScientific(){
+        IndustrialAndScientific.click();
+        driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Industrial & Scientific", Keys.ENTER);
+    }
+
+    public void setKindleStore(){
+        KindleStore.click();
+        driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Kindle Store", Keys.ENTER);
+
+    }
+
+    public void setLuggageAndTravel(){
+        LuggageAndTravel.click();
+        driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Luggage & Travel Gear", Keys.ENTER);
+    }
+
+    public void setLuxuryBeauty(){
+        LuxuryBeauty.click();
+        driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Luxury Beauty", Keys.ENTER);
+    }
+
+    public void setMagazineSubscriptions(){
+        MagazineSubscriptions.click();
+        driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Magazine Subscriptions", Keys.ENTER);
+    }
+
+
+    public void setMoviesAndTv(){
+        MoviesAndTv.click();
+        driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Movies & TV", Keys.ENTER);
+
+    }
+
+
+    public void setMusicalInstruments(){
+        MusicalInstruments.click();
+        driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Musical Instruments", Keys.ENTER);
+    }
+
+    public void setOfficeProducts(){
+        OfficeProducts.click();
+        driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Office Products", Keys.ENTER);
+
+    }
+
+    public void setPetSupplies(){
+        PetSupplies.click();
+        driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Pet Supplies", Keys.ENTER);
+
+    }
+
+    public void setPrimeExclusiveSavings(){
+        PrimeExclusiveSavings.click();
+        driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Prime Exclusive Savings", Keys.ENTER);
+
+    }
+
+
+    public void setPrimePantry(){
+        PrimePantry.click();
+        driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']")).sendKeys("Prime Pantry", Keys.ENTER);
+    }
+
+
+    public void setPrimeVideo(){
+        PrimeVideo.click();
+        driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']")).sendKeys("Prime Video", Keys.ENTER);
+    }
+
+
+    public void setSoftware(){
+        Software.click();
+        driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']")).sendKeys("software", Keys.ENTER);
+
+    }
+
+
+    public void setSportsAndOutdoors(){
+        SportsAndOutdoors.click();
+        driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Sports & Outdoors", Keys.ENTER);
+
+    }
+
+
+    public void setToolsHomeImprovements(){
+        ToolsHomeImprovements.click();
+        driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Tools & Home Improvement", Keys.ENTER);
+    }
+
+
+    public void setToysAndGames(){
+        ToysAndGames.click();
+        driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Toys & Games", Keys.ENTER);
+    }
+
+
+    public void setVehicles(){
+        Vehicles.click();
+        driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Vehicles", Keys.ENTER);
+    }
+
+
+    public void setVideoGames(){
+        VideoGames.click();
+        driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("ps4 games", Keys.ENTER);
+
+    }
 
 }
 
