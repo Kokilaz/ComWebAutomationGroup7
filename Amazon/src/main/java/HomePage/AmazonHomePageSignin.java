@@ -48,7 +48,6 @@ public class AmazonHomePageSignin extends CommonAPI {
         setbeforepassword();
         typePassword();
         clickSigin();
-
     }
 
 }

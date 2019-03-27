@@ -163,13 +163,11 @@ public class AmazonCategories extends CommonAPI {
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Baby fashion", Keys.ENTER);
     }
 
-
     public void setfineart()throws InterruptedException{
         fineart.click();
         Thread.sleep(2000);
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Collectibles", Keys.ENTER);
     }
-
 
     public void setComputers() throws InterruptedException{
         Computers.click();
@@ -177,13 +175,11 @@ public class AmazonCategories extends CommonAPI {
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Computers", Keys.ENTER);
     }
 
-
     public void setDigitalMusic()throws InterruptedException{
         DigitalMusic.click();
         Thread.sleep(2000);
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Digital music", Keys.ENTER);
     }
-
 
     public void setGarden()throws InterruptedException{
         Garden.click();
@@ -197,102 +193,84 @@ public class AmazonCategories extends CommonAPI {
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Electronics", Keys.ENTER);
     }
 
-
     public void setGiftCard(){
         GiftCard.click();
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Gift cards", Keys.ENTER);
     }
-
 
     public void setCredit(){
         Credit.click();
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Credit and Payment Cards", Keys.ENTER);
     }
 
-
     public void setCourses(){
         Courses.click();
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Courses", Keys.ENTER);
     }
-
 
     public void setGrocery(){
         Grocery.click();
         driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']")).sendKeys("Grocery & Gourmet Food", Keys.ENTER);
     }
 
-
     public void setHealth(){
         Health.click();
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Health, Household & Baby Care", Keys.ENTER);
     }
-
 
     public void setKindle(){
         Kindle.click();
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Kindle Store", Keys.ENTER);
     }
 
-
     public void setMovies(){
         Movies.click();
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Movies & TV", Keys.ENTER);
     }
-
 
     public void setClothingShoes(){
         ClothingShoes.click();
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Clothing, Shoes & Jewelry", Keys.ENTER);
     }
 
-
     public void setWarehouseDeals(){
         WarehouseDeals.click();
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Warehouse deals", Keys.ENTER);
     }
-
 
     public void setitemsofWomen(){
         itemsofWomen.click();
         driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']")).sendKeys("Womens", Keys.ENTER);
     }
 
-
     public void setitemsofGirls(){
         itemsofGirls.click();
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Girls", Keys.ENTER);
     }
 
-
     public void setitemsofMen(){
         itemsofMen.click();
     }
-
 
     public void setitemsofBoys(){
         itemsofBoys.click();
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Boys", Keys.ENTER);
     }
 
-
     public void setHandmade(){
         Handmade.click();
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("handmade", Keys.ENTER);
     }
 
-
     public void setHouseholdandCare(){
         HouseholdandCare.click();
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Health, Household & Baby Care", Keys.ENTER);
-
     }
-
 
     public void setBusinessServices(){
         BusinessServices.click();
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Home & Business Services", Keys.ENTER);
     }
-
 
     public void setHomeAndKitchen(){
         HomeAndKitchen.click();
@@ -307,7 +285,6 @@ public class AmazonCategories extends CommonAPI {
     public void setKindleStore(){
         KindleStore.click();
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Kindle Store", Keys.ENTER);
-
     }
 
     public void setLuggageAndTravel(){
@@ -325,13 +302,10 @@ public class AmazonCategories extends CommonAPI {
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Magazine Subscriptions", Keys.ENTER);
     }
 
-
     public void setMoviesAndTv(){
         MoviesAndTv.click();
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Movies & TV", Keys.ENTER);
-
     }
-
 
     public void setMusicalInstruments(){
         MusicalInstruments.click();
@@ -341,77 +315,62 @@ public class AmazonCategories extends CommonAPI {
     public void setOfficeProducts(){
         OfficeProducts.click();
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Office Products", Keys.ENTER);
-
     }
 
     public void setPetSupplies(){
         PetSupplies.click();
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Pet Supplies", Keys.ENTER);
-
     }
 
     public void setPrimeExclusiveSavings(){
         PrimeExclusiveSavings.click();
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Prime Exclusive Savings", Keys.ENTER);
-
     }
-
 
     public void setPrimePantry(){
         PrimePantry.click();
         driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']")).sendKeys("Prime Pantry", Keys.ENTER);
     }
 
-
     public void setPrimeVideo(){
         PrimeVideo.click();
         driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']")).sendKeys("Prime Video", Keys.ENTER);
     }
 
-
     public void setSoftware(){
         Software.click();
         driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']")).sendKeys("software", Keys.ENTER);
-
     }
-
 
     public void setSportsAndOutdoors(){
         SportsAndOutdoors.click();
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Sports & Outdoors", Keys.ENTER);
-
     }
-
 
     public void setToolsHomeImprovements(){
         ToolsHomeImprovements.click();
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Tools & Home Improvement", Keys.ENTER);
     }
 
-
     public void setToysAndGames(){
         ToysAndGames.click();
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Toys & Games", Keys.ENTER);
     }
-
 
     public void setVehicles(){
         Vehicles.click();
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Vehicles", Keys.ENTER);
     }
 
-
     public void setVideoGames(){
         VideoGames.click();
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("ps4 games", Keys.ENTER);
-
     }
 
     public void setcategorieBaby(){
         categorieBaby.click();
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Baby", Keys.ENTER);
     }
-
 
     public void setArtsAutomotive(){
         ArtsAutomotive.click();
@@ -422,9 +381,6 @@ public class AmazonCategories extends CommonAPI {
         BeautyPersonal.click();
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Beauty & Personal Care", Keys.ENTER);
     }
-
-
-
 
 }
 

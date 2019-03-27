@@ -18,7 +18,6 @@ public class AmazonSearchFromDb extends CommonAPI {
     @FindBy(css = "#twotabsearchtextbox")
     WebElement searchInput;
 
-
     public void setSearchInput(String items)throws Exception{
         searchInput.sendKeys(items, Keys.ENTER);
         Thread.sleep(1000);
@@ -27,7 +26,6 @@ public class AmazonSearchFromDb extends CommonAPI {
     public void clearInput(){
         searchInput.clear();
     }
-
 
     public void searchItems()throws Exception{
         List<String> list = database.readDataBase("Amazon","products");
