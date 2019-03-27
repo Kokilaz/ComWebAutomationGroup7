@@ -20,14 +20,12 @@ public class TestAmazonHomePageSignin extends AmazonHomePageSignin {
 
     @Test
     public void setopenlogin(){
-        ApplicationLog.epicLogger();
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonHomePageSignin.openlogin();
     }
 
     @Test
     public void setOpenPageLogin(){
-        ApplicationLog.epicLogger();
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonHomePageSignin.openpageLogin();
     }

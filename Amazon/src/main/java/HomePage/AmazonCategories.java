@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.testng.Assert;
 
 import java.util.List;
 
@@ -133,6 +134,18 @@ public class AmazonCategories extends CommonAPI {
     @FindBy(xpath = "//option[@value='search-alias=videogames']")
     WebElement VideoGames;
 
+    @FindBy(xpath = "//option[@value='search-alias=baby-products']")
+    WebElement categorieBaby;
+
+
+    @FindBy(xpath = "//option[@value='search-alias=automotive']")
+    WebElement ArtsAutomotive;
+
+
+    @FindBy(xpath ="//option[@value='search-alias=beauty']")
+    WebElement BeautyPersonal;
+
+
     @FindBy(css = "#searchDropdownBox")
     WebElement Categories;
 
@@ -144,38 +157,43 @@ public class AmazonCategories extends CommonAPI {
         }
     }
 
-    public void setBabyFashion(){
+    public void setBabyFashion() throws InterruptedException {
         BabyFashion.click();
+        Thread.sleep(2000);
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Baby fashion", Keys.ENTER);
     }
 
 
-    public void setfineart(){
+    public void setfineart()throws InterruptedException{
         fineart.click();
+        Thread.sleep(2000);
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Collectibles", Keys.ENTER);
     }
 
 
-    public void setComputers() {
+    public void setComputers() throws InterruptedException{
         Computers.click();
+        Thread.sleep(2000);
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Computers", Keys.ENTER);
     }
 
 
-    public void setDigitalMusic(){
+    public void setDigitalMusic()throws InterruptedException{
         DigitalMusic.click();
+        Thread.sleep(2000);
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Digital music", Keys.ENTER);
     }
 
 
-    public void setGarden(){
+    public void setGarden()throws InterruptedException{
         Garden.click();
+        Thread.sleep(2000);
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Garden & Outdoor", Keys.ENTER);
     }
 
-
-    public void setElectronics(){
+    public void setElectronics()throws InterruptedException{
         Electronics.click();
+        Thread.sleep(2000);
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Electronics", Keys.ENTER);
     }
 
@@ -388,6 +406,25 @@ public class AmazonCategories extends CommonAPI {
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("ps4 games", Keys.ENTER);
 
     }
+
+    public void setcategorieBaby(){
+        categorieBaby.click();
+        driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Baby", Keys.ENTER);
+    }
+
+
+    public void setArtsAutomotive(){
+        ArtsAutomotive.click();
+        driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Automotive parts", Keys.ENTER);
+    }
+
+    public void setBeautyPersonal(){
+        BeautyPersonal.click();
+        driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Beauty & Personal Care", Keys.ENTER);
+    }
+
+
+
 
 }
 

@@ -8,8 +8,6 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import Utility.DataReader;
-
-
 import java.sql.SQLException;
 import java.util.List;
 
@@ -32,7 +30,7 @@ public class AmazonSearchFromDb extends CommonAPI {
 
 
     public void searchItems()throws Exception{
-        List<String> list = database.readDataBase("itemList","items");
+        List<String> list = database.readDataBase("Amazon","products");
         for ( int i =0; i < list.size(); i++){
             setSearchInput(list.get(i));
             clearInput();

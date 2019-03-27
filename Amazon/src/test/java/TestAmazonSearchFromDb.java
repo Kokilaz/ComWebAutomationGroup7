@@ -19,11 +19,9 @@ public class TestAmazonSearchFromDb extends CommonAPI {
 
     @Test
     public void testSearchDB()throws Exception{
-        ApplicationLog.epicLogger();
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonSearchFromDb.searchItems();
     }
-
 
 }
 
