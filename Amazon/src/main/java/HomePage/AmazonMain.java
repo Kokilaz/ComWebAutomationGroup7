@@ -146,6 +146,30 @@ public class AmazonMain extends CommonAPI {
     @FindBy(xpath = "//a[@href='http://www.acx.com/']")
     WebElement acx;
 
+    @FindBy(xpath = "//a[@href='http://www.boxofficemojo.com/?ref_=amzn_nav_ftr']")
+    WebElement boxOfficeMojo;
+
+    @FindBy(xpath = "//a[@href='http://www.comixology.com']")
+    WebElement comixology;
+
+    @FindBy(xpath = "//*[@class='navFooterMoreOnAmazon']/tbody//tr[3]/td[5]")
+    WebElement amazonGlobal;
+
+    @FindBy(xpath = "//*[@class='navFooterMoreOnAmazon']/tbody//tr[3]/td[7]")
+    WebElement homeService;
+
+    @FindBy(xpath = "//*[@class='navFooterMoreOnAmazon']/tbody//tr[3]/td[9]")
+    WebElement amazonInspire;
+
+    @FindBy(xpath = "//*[@class='navFooterMoreOnAmazon']/tbody//tr[3]/td[11]")
+    WebElement amazonRapids;
+
+    @FindBy(xpath = "//*[@class='navFooterMoreOnAmazon']/tbody//tr[3]/td[13]")
+    WebElement amazonRestaurants;
+
+    @FindBy(xpath = "//a[@href='http://www.bookdepository.com']")
+    WebElement bookDepository;
+
 
     public void setSearchbar() {
         Searchbar.click();
@@ -360,4 +384,36 @@ public class AmazonMain extends CommonAPI {
     public void setAcx(){
         acx.click();
     }
+
+    public void setboxofficemojo(){
+        boxOfficeMojo.click();
+    }
+
+    public void setcomixology(){
+        comixology.click();
+    }
+
+    public void setamazonGlobal(){
+        amazonGlobal.click();
+    }
+    public void sethomeService(){
+        homeService.click();
+    }
+
+    public void setamazonInspire(){
+        amazonInspire.click();
+    }
+
+    public void setamazonRapids(){
+        amazonRapids.click();
+    }
+
+    public void setamazonRestaurants(){
+        amazonRestaurants.click();
+    }
+
+    public void setbookDepository() {
+        bookDepository.click();
+    }
+
 }

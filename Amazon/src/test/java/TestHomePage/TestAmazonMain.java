@@ -292,4 +292,52 @@ public class TestAmazonMain extends AmazonMain {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonMain.setAcx();
     }
+
+    @Test
+    public void setboxofficemojo(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        amazonMain.setboxofficemojo();
+    }
+
+    @Test
+    public void getcomixology(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        amazonMain.setcomixology();
+    }
+
+    @Test
+    public void getamazonGlobal(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        amazonMain.setamazonGlobal();
+    }
+
+    @Test
+    public void gethomeService(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        amazonMain.sethomeService();
+    }
+
+    @Test
+    public void getamazonInspire(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        amazonMain.setamazonInspire();
+    }
+
+    @Test
+    public void getamazonRapids(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        amazonMain.setamazonRapids();
+    }
+
+    @Test
+    public void getamazonRestaurants(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        amazonMain.setamazonRestaurants();
+    }
+
+    @Test
+    public void getbookDepository() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        amazonMain.setbookDepository();
+    }
 }
