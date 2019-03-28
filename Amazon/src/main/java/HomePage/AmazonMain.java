@@ -4,9 +4,13 @@ import Base.CommonAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import java.util.List;
 
 public class AmazonMain extends CommonAPI {
 
@@ -82,6 +86,66 @@ public class AmazonMain extends CommonAPI {
     @FindBy(css = "#nav-hamburger-menu > i")
     WebElement ShopByCategory;
 
+    @FindBy(xpath = "//*[@id=\"nav-link-accountList\"]")
+    WebElement MousehoverSigin;
+
+    @FindBy(xpath = "/html[1]/body[1]")
+    WebElement List;
+
+    @FindBy(xpath = "//option[@value='search-alias=videogames']")
+    WebElement VideoGamesearch;
+
+    @FindBy(css = "#hlb-ptc-btn-native")
+    WebElement continueTocart;
+
+    @FindBy(xpath = "//option[@value='search-alias=videogames']")
+    WebElement screenshots;
+
+    @FindBy(xpath = "//input[@id='add-to-cart-button']")
+    WebElement goToCart;
+
+    @FindBy(css = "body")
+    WebElement click;
+
+    @FindBy(css = "#navSwmHoliday > a > img")
+    WebElement supportartisans;
+
+    @FindBy(css = "#anonCarousel1 > ol > li:nth-child(1) > a > img")
+    WebElement karmalit;
+
+    @FindBy(id = "nav-your-amazon")
+    WebElement yourAmazon;
+
+    @FindBy(xpath = "//div[@id='nav-xshop']//a[2]")
+    WebElement todaysDeals;
+
+    @FindBy(xpath = "//div[@id='nav-xshop']//a[3]")
+    WebElement giftCards;
+
+    @FindBy(xpath = "//div[@id='nav-xshop']//a[4]")
+    WebElement wholeFoods;
+
+    @FindBy(xpath = "//div[@id='nav-xshop']//a[5]")
+    WebElement sell;
+
+    @FindBy(xpath = "//div[@id='nav-xshop']//a[6]")
+    WebElement registry;
+
+    @FindBy(xpath = "//div[@id='nav-xshop']//a[7]")
+    WebElement help;
+
+    @FindBy(xpath = "//*[@class='navFooterMoreOnAmazon']/tbody//tr[1]/td[5]")
+    WebElement amazonDrive;
+
+    @FindBy(xpath = "//a[@href='http://www.6pm.com']")
+    WebElement sixpmDeals;
+
+    @FindBy(xpath = "//a[@href='https://www.abebooks.com']")
+    WebElement abeBooks;
+
+    @FindBy(xpath = "//a[@href='http://www.acx.com/']")
+    WebElement acx;
+
 
     public void setSearchbar() {
         Searchbar.click();
@@ -94,6 +158,13 @@ public class AmazonMain extends CommonAPI {
 
     public void setSearchItems() {
         SearchItems.sendKeys("iphone xs");
+    }
+
+    public void SearchNavigation() {
+        Searchbar.sendKeys("ps4 games", Keys.ENTER);
+        driver.navigate().back();
+        driver.navigate().forward();
+        driver.navigate().refresh();
     }
 
     public void setSearchItem() {
@@ -199,13 +270,94 @@ public class AmazonMain extends CommonAPI {
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Credit and Payment Cards", Keys.ENTER);
     }
 
-    public void setShopByCategory()throws Exception{
+    public void setShopByCategory() throws Exception {
         ShopByCategory.click();
         Thread.sleep(5000);
     }
 
-    public void hoveroverprimevideo()throws Exception{
+    public void hoveroverprimevideo() throws Exception {
         setShopByCategory();
         mouseHoverByCSS("body");
+    }
+
+    public void HoveroverList() throws InterruptedException {
+        Actions action = new Actions(driver);
+        action.moveToElement(List).perform();
+        action.moveToElement(MousehoverSigin).click().perform();
+        CommonAPI.sleepFor(2);
+    }
+
+    public void setVideoSearch() {
+        VideoGamesearch.click();
+        driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']")).sendKeys("ps4 games", Keys.ENTER);
+        driver.findElement(By.cssSelector("#search > div.sg-row > div.sg-col-20-of-24.sg-col-28-of-32.sg-col-16-of-20.sg-col.s-right-column.sg-col-32-of-36.sg-col-8-of-12.sg-col-12-of-16.sg-col-24-of-28 > div > span:nth-child(4) > div.s-result-list.sg-row > div:nth-child(1) > div > div > div > div > div > div:nth-child(2) > div.sg-col-4-of-24.sg-col-4-of-12.sg-col-4-of-36.sg-col-4-of-28.sg-col-4-of-16.sg-col.sg-col-4-of-20.sg-col-4-of-32 > div > div > span > a > div > img")).click();
+    }
+
+    public void setGoToCart() {
+        setVideoSearch();
+        goToCart.click();
+    }
+
+    public void setContinuetoCart() {
+        setGoToCart();
+        continueTocart.click();
+    }
+
+    public void setScreenshots() {
+        screenshots.click();
+        driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']")).sendKeys("Assasins Creed", Keys.ENTER);
+    }
+
+    public void setclick() {
+        click.click();
+    }
+
+    public void setsupport() {
+        supportartisans.click();
+    }
+
+    public void getkarmalit() {
+        setsupport();
+        driver.navigate().back();
+    }
+
+    public void setYourAmazon() {
+        yourAmazon.click();
+    }
+
+    public void setTodaysDeals() {
+        todaysDeals.click();
+    }
+
+    public void setGiftcards() {
+        giftCards.click();
+    }
+
+    public void setWholeFoods() {
+        wholeFoods.click();
+    }
+
+    public void setsell() {
+        sell.click();
+    }
+
+    public void getWholeFoods() {
+        wholeFoods.click();
+    }
+
+    public void setAmazonDrive(){
+        amazonDrive.click();
+    }
+
+    public void setSixpmDeals(){
+       sixpmDeals.click();
+    }
+
+    public void setabeBooks(){
+        abeBooks.click();
+    }
+
+    public void setAcx(){
+        acx.click();
     }
 }

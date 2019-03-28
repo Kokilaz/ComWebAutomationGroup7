@@ -75,6 +75,14 @@ public class TestAmazonHomePageSignin extends AmazonHomePageSignin {
 
     @Test
     public void Signout(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonHomePageSignin.signout();
     }
+
+    @Test
+    public void HoveroverSignin() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        amazonHomePageSignin.HoveroverSiginTab();
+    }
+
 }

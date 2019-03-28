@@ -43,6 +43,12 @@ public class TestAmazonMain extends AmazonMain {
     }
 
     @Test
+    public void Navigation(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        amazonMain.SearchNavigation();
+    }
+
+    @Test
     public void getSearchitem(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonMain.setSearchItem();
@@ -172,5 +178,118 @@ public class TestAmazonMain extends AmazonMain {
         amazonMain.hoveroverprimevideo();
     }
 
+    @Test
+    public void HoverOverList() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        amazonMain.HoveroverList();
+    }
 
+    @Test
+    public void VideoSearch(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        amazonMain.setVideoSearch();
+    }
+
+    @Test
+    public void GoTocart(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        amazonMain.setGoToCart();
+    }
+
+    @Test
+    public void ContinueToCart(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        amazonMain.setContinuetoCart();
+    }
+
+    @Test
+    public void Screenshots(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        amazonMain.setScreenshots();
+    }
+
+    @Test
+    public void getclick(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        amazonMain.setclick();
+    }
+
+    @Test
+    public void SupportArtisans(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        amazonMain.setsupport();
+
+    }
+
+    @Test
+    public void Karmalit(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        amazonMain.getkarmalit();
+    }
+
+    @Test
+    public void Youramazon(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        amazonMain.setYourAmazon();
+    }
+
+    @Test
+    public void DealsToday(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        amazonMain.setTodaysDeals();
+    }
+
+    @Test
+    public void Giftcards(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        amazonMain.setGiftcards();
+    }
+
+    @Test
+    public void WholeFoods(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        amazonMain.setWholeFoods();
+    }
+
+    @Test
+    public void Sell(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        amazonMain.setsell();
+    }
+
+    @Test
+    public void setWholeFoods(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        amazonMain.setWholeFoods();
+    }
+
+    @Test
+    public void getHelp(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        amazonMain.setsell();
+    }
+
+    @Test
+    public void getAmazonDrive(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        amazonMain.setAmazonDrive();
+    }
+
+    @Test
+    public void Sixpmdeals() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        amazonMain.setSixpmDeals();
+    }
+
+    @Test
+    public void getabeBooks(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        amazonMain.setabeBooks();
+    }
+
+    @Test
+    public void getsetAcx(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        amazonMain.setAcx();
+    }
 }

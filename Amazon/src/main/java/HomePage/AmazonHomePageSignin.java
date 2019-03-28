@@ -2,7 +2,10 @@ package HomePage;
 
 import Base.CommonAPI;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
+
+import javax.swing.*;
 
 public class AmazonHomePageSignin extends CommonAPI {
 
@@ -47,6 +50,12 @@ public class AmazonHomePageSignin extends CommonAPI {
 
     @FindBy(css = "#nav-link-accountList > span.nav-line-2")
     WebElement setSignout;
+
+    @FindBy(xpath = "//*[@id=\"nav-link-accountList\"]")
+    WebElement MousehoverSigin;
+
+    @FindBy(xpath = "/html[1]/body[1]")
+    WebElement List;
 
 
     public void openlogin(){
@@ -119,6 +128,14 @@ public class AmazonHomePageSignin extends CommonAPI {
 
     public void signout(){
         ReEnter();
+    }
+
+    public void HoveroverSiginTab() throws InterruptedException {
+        Actions action = new Actions(driver);
+        action.moveToElement(MousehoverSigin).perform();
+        Thread.sleep(1000);
+        action.moveToElement(List).click().perform();
+        CommonAPI.sleepFor(2);
     }
 
 }
