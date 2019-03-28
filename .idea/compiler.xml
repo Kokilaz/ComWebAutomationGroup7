@@ -9,5 +9,9 @@
         <module name="Generic" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="BathandBodyWorks" target="1.8" />
+      <module name="Etsy" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
