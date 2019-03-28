@@ -21,6 +21,33 @@ public class AmazonHomePageSignin extends CommonAPI {
     @FindBy (xpath = "//input[@id='signInSubmit']" )
     WebElement siginSubmit;
 
+    @FindBy(css = "#createAccountSubmit")
+    WebElement createaccount;
+
+    @FindBy(css = "#ap_customer_name")
+    WebElement yourname;
+
+    @FindBy(css = "#ap_email")
+    WebElement Email;
+
+    @FindBy(css = "#ap_password")
+    WebElement amazonpassword;
+
+    @FindBy(css = "#ap_password_check")
+    WebElement enterPassword;
+
+    @FindBy(css = "#continue")
+    WebElement cretaeAcccount;
+
+    @FindBy(css = "#cvf-page-content > div > div > div:nth-child(1) > form > div:nth-child(1) > div.a-row.a-spacing-small > h1")
+    WebElement verifyEmail;
+
+    @FindBy(css = "#cvf-page-content > div > div > div:nth-child(1) > form > div:nth-child(2) > input")
+    WebElement getcode;
+
+    @FindBy(css = "#nav-link-accountList > span.nav-line-2")
+    WebElement setSignout;
+
 
     public void openlogin(){
         login.click();
@@ -48,6 +75,50 @@ public class AmazonHomePageSignin extends CommonAPI {
         setbeforepassword();
         typePassword();
         clickSigin();
+    }
+
+    public void setCreateaccount(){
+        openlogin();
+        createaccount.click();
+    }
+
+    public void setYourname(){
+        setCreateaccount();
+        yourname.sendKeys("jke");
+    }
+
+    public void giveemail(){
+        setYourname();
+        Email.sendKeys("jke@gmail.com");
+    }
+
+    public void setpassword(){
+        giveemail();
+        amazonpassword.sendKeys("abc123");
+    }
+
+    public void ReEnter(){
+        setpassword();
+        enterPassword.sendKeys("abc123");
+    }
+
+    public void account(){
+        ReEnter();
+        cretaeAcccount.click();
+    }
+
+    public void setEmail(){
+        account();
+        verifyEmail.click();
+        driver.navigate().refresh();
+    }
+
+    public void sendcode(){
+        setEmail();
+    }
+
+    public void signout(){
+        ReEnter();
     }
 
 }
