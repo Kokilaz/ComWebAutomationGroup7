@@ -1,11 +1,9 @@
-package HomePage;
+package homePage;
 
 import Base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
-
-import javax.swing.*;
 
 public class AmazonHomePageSignin extends CommonAPI {
 
@@ -137,5 +135,4 @@ public class AmazonHomePageSignin extends CommonAPI {
         action.moveToElement(List).click().perform();
         CommonAPI.sleepFor(2);
     }
-
 }

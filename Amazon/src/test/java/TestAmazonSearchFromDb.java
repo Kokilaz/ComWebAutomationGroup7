@@ -1,6 +1,5 @@
 import Base.CommonAPI;
-import HomePage.AmazonSearchFromDb;
-import Reporting.ApplicationLog;
+import homePage.AmazonSearchFromDb;
 import Reporting.TestLogger;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
@@ -22,6 +21,5 @@ public class TestAmazonSearchFromDb extends CommonAPI {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonSearchFromDb.searchItems();
     }
-
 }
 

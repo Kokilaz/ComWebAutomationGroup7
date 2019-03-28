@@ -1,9 +1,7 @@
-package TestHomePage;
+package testHomePage;
 
-import HomePage.AmazonCategories;
-import Reporting.ApplicationLog;
+import homePage.AmazonCategories;
 import Reporting.TestLogger;
-import org.omg.CORBA.PUBLIC_MEMBER;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;

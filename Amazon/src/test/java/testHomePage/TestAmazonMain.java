@@ -1,7 +1,6 @@
-package TestHomePage;
+package testHomePage;
 
-import HomePage.AmazonMain;
-import Reporting.ApplicationLog;
+import homePage.AmazonMain;
 import Reporting.TestLogger;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;

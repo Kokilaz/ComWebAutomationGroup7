@@ -3,11 +3,11 @@
 
 <suite name="Amazon Automation Script " parallel="false">
 
-    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="useCloudEnv" value="true"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <parameter name="os" value="OS X"/>
     <parameter name="os_version" value="Sierra"/>
-    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserName" value="firefox"/>
     <parameter name="browserVersion" value="30.0"/>
     <parameter name="url" value="https://www.amazon.com/"/>
 
@@ -15,7 +15,7 @@
         <classes>
             <!--<class name="title.AmazonHome"/>-->
             <!--<class name="search.SearchTest"/>-->
-            <class name="TestHomePage.TestAmazonHomePageSignin"/>
+            <class name="testHomePage.TestAmazonHomePageSignin"/>
         </classes>
     </test>
 

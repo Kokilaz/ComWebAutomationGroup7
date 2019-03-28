@@ -1,9 +1,7 @@
-package TestHomePage;
+package testHomePage;
 
-import HomePage.AmazonHomePageSignin;
-import Reporting.ApplicationLog;
+import homePage.AmazonHomePageSignin;
 import Reporting.TestLogger;
-import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
