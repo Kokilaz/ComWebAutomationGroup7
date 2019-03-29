@@ -13,14 +13,110 @@ import org.testng.annotations.Test;
 public class MainPage extends CommonAPI {
 
 
+    @FindBy(xpath = "//*[@id=\"secondary\"]/div[2]/div[2]/div[1]/ul/li[2]/a")
+    WebElement Bodycare;
+
+    @FindBy(css = "#body-care-dropdown > a")
+    WebElement DropdownBodycare;
+
+    @FindBy(css = "#secondary > div.active-sub-category > ul:nth-child(2) > li:nth-child(4) > a")
+    WebElement travelSize;
+
+    @FindBy(css = "#q")
+    WebElement searchbar;
+
+    @FindBy(css = "#primary > div.fragrance-list.fr-category > ul > li:nth-child(1) > a > img")
+    WebElement FragranceCitrus;
+
+    @FindBy(css = "#wrapper > header > div.header-banner.addOn.stickyOn > div > div:nth-child(3) > div > a > img")
+    WebElement click;
+
+    @FindBy(css = "#primary > div.fragrance-list.fr-category > ul > li:nth-child(2) > a > img")
+    WebElement Exotic;
+
+    @FindBy(css = "#primary > div.fragrance-list.fr-category > ul > li:nth-child(3) > a > img")
+    WebElement floral;
+
+    @FindBy(css = "#primary > div.fragrance-list.fr-category > ul > li:nth-child(4) > a > img")
+    WebElement fresh;
+
+    @FindBy(css ="#primary > div.fragrance-list.fr-category > ul > li:nth-child(5) > a > img")
+    WebElement fruit;
+
+    @FindBy(css ="#primary > div.fragrance-list.fr-category > ul > li:nth-child(6) > a > img")
+    WebElement gouramand;
+
+    @FindBy(css ="#primary > div.fragrance-list.fr-category > ul > li:nth-child(7) > a > img")
+    WebElement warm;
+
+    @FindBy(css ="#primary > div.fragrance-list.fr-category > ul > li:nth-child(8) > a > img")
+    WebElement woods;
+
+    @FindBy(css = "#body-care-dropdown > a")
+    WebElement SelectBodyCare;
+
+    @FindBy(xpath = "//*[@id=\"secondary\"]/div[2]/div[2]/div[2]/ul[1]/li[1]/a")
+    WebElement SelectNewBodycare;
+
+    @FindBy(css = "#\\32 6ee6803b54d53d08711ab72ea > div.product-outline-block > a > div.product-image > div > div > div > img")
+    WebElement Selectproduct;
+
+    @FindBy(css = "#primary > div.search-result-options.top > div.filter-overflow > div.filters.refinements > div.refinement.productType > h3 > i")
+    WebElement productType;
+
+    @FindBy(css = "#q")
+    WebElement Title;
+
+    @FindBy(css = "#wrapper > div.breadcrumb > span")
+    WebElement breadcrum;
+
+    @FindBy(css = "#\\32 dda07ee14757ccad658ace668 > div.product-outline-block > a > div.product-cont > div.product-name")
+    WebElement productCream;
+
+    @FindBy(css = "#add-to-cart")
+    WebElement cart;
+
+    @FindBy(css = "body > div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons > div.ui-dialog-buttonpane.ui-widget-content.ui-helper-clearfix > div.ui-dialog-buttonset > button:nth-child(2) > span")
+    WebElement checkout;
+
+    @FindBy(css = "#wrapper > header > div.top-banner.stickyOn > div.wrap > div.primary-logo > a > img")
+    WebElement navigateBackHome;
+
+    @FindBy(css = "#hand-soaps-dropdown > a")
+    WebElement Clickonshop;
+
+    @FindBy(css = "#wrapper > header > div.top-banner.stickyOn > div.wrap > div.primary-logo > a > img")
+    WebElement getTitleHome;
+
+    @FindBy(css = "#secondary > div.filter-overflow > div.filter-content > div.active-sub-category > ul:nth-child(4) > li:nth-child(1) > a")
+    WebElement ClickHandsoaps;
+
+    @FindBy(css = "#primary > div.search-result-options.top > div.filter-overflow > div.filters.refinements > div.refinement.productType > h3 > i")
+    WebElement HandsoapDropdown;
+
+    @FindBy(css = "#primary > div.search-result-options.top > div.filter-overflow > div.filters.refinements > div.refinement.productType.open > h3")
+    WebElement candleHolder;
+
+    @FindBy(css = "#primary > div.search-result-options.top > div.filter-overflow > div.filters.refinements > div.refinement.fragranceName.custom-filter > h3")
+    WebElement Fragranename;
+
+    @FindBy(css = "#primary > div.search-result-options.top > div.filter-overflow > div.filters.refinements > div.refinement.fragranceCategory > h3 > i")
+    WebElement clickonFragrance;
+
+    @FindBy(css = "#primary > div.search-result-options.top > div.filter-overflow > div.filters.refinements > div.refinement.fragranceCategory > h3 > i" )
+    WebElement fragranceCategory;
+
+    @FindBy(css = "#secondary > div.active-sub-category > ul:nth-child(4) > li:nth-child(2) > a" )
+    WebElement selectFoamingSoap;
+
+    @FindBy(css = "body > div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.global-email-dialog.ui-draggable > div.ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix.ui-draggable-handle > button > span.ui-button-icon-primary.ui-icon.ui-icon-closethick")
+    WebElement HandlepopUp;
+
     public void getTitle() {
         String title = driver.getTitle();
         System.out.println(driver.getTitle());
         Assert.assertEquals(title,"Body Care & Home Fragrances You'll Love | Bath & Body Works");
     }
-
-    @FindBy(css = "body > div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.global-email-dialog.ui-draggable > div.ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix.ui-draggable-handle > button > span.ui-button-icon-primary.ui-icon.ui-icon-closethick")
-    WebElement HandlepopUp;
 
     public void HomePageHandlepopup() {
         HandlepopUp.click();
@@ -29,84 +125,10 @@ public class MainPage extends CommonAPI {
         Assert.assertEquals(driver.getTitle(), title);
     }
 
-    @FindBy(css = "#wrapper > header > div.top-banner.stickyOn > div.wrap > div.icon-items > ul > li > a > svg")
-    WebElement OpenLogin;
-
-    public void clickOnLogin() {
-        HomePageHandlepopup();
-        WebDriverWait wait = new WebDriverWait(driver, 1, 5000);
-        OpenLogin.click();
-    }
-
-     @FindBy(css = "#wrapper > header > div.top-banner.stickyOn > div.wrap > div.icon-items > ul > li > a > svg")
-     WebElement Siginorsignup;
-
-     public void getlogin() {
-         clickOnLogin();
-         Siginorsignup.click();
-     }
-
-     @FindBy(css = "#wrapper > header > div.top-banner.stickyOn > div.wrap > div.icon-items > ul > li > a > svg" )
-     WebElement clickSignin;
-
-     public void setClickSignin() {
-         getlogin();
-         WebDriverWait wait = new WebDriverWait(driver, 1, 5000);
-         clickSignin.click();
-     }
-
-     @FindBy(css = "#wrapper > header > div.top-banner.stickyOn > div.wrap > div.icon-items > ul > li > div > div > a:nth-child(1)")
-     WebElement signinpage;
-
-     public void setSigninpage(){
-         setClickSignin();
-         signinpage.click();
-     }
-
-     @FindBy(css = "#dwfrm_login_username")
-     WebElement username;
-
-     public void setUsername(){
-         setSigninpage();
-         username.sendKeys("jenniferkasi234@gmail.com");
-     }
-
-     @FindBy(css = "#dwfrm_login_password")
-     WebElement password;
-
-     public void setPassword(){
-         setUsername();
-         password.sendKeys("123456Abc");
-     }
-
-     @FindBy(css = "#dwfrm_login > fieldset > div.form-row.form-row-button > button")
-     WebElement clicklogin;
-
-     public void setClicklogin(){
-         setPassword();
-         clicklogin.click();
-     }
-
-     @FindBy(css = "body")
-     WebElement myinfo;
-
-     public void setMyinfo(){
-         setClicklogin();
-         myinfo.click();
-         WebDriverWait wait = new WebDriverWait(driver, 1, 5000);
-         driver.navigate().back();
-     }
-
-     @FindBy(css = "#body-care-dropdown > a")
-     WebElement DropdownBodycare;
-
      public void setDropdownBodycare(){
          HomePageHandlepopup();
          DropdownBodycare.click();
      }
-
-     @FindBy(xpath = "//*[@id=\"secondary\"]/div[2]/div[2]/div[1]/ul/li[2]/a")
-     WebElement Bodycare;
 
      public void setBodycare(){
          setDropdownBodycare();
@@ -119,25 +141,16 @@ public class MainPage extends CommonAPI {
          driver.navigate().refresh();
      }
 
-     @FindBy(css = "#secondary > div.active-sub-category > ul:nth-child(2) > li:nth-child(4) > a")
-     WebElement travelSize;
-
      public void setTravelSize(){
          setBodycare();
          travelSize.click();
      }
-
-     @FindBy(css = "#q")
-     WebElement searchbar;
 
      public void Setsearch(){
          HomePageHandlepopup();
          searchbar.sendKeys("Fragrance");
          searchbar.click();
      }
-
-     @FindBy(css = "#primary > div.fragrance-list.fr-category > ul > li:nth-child(1) > a > img")
-     WebElement FragranceCitrus;
 
      public void setCitrus(){
          Setsearch();
@@ -146,16 +159,10 @@ public class MainPage extends CommonAPI {
          driver.navigate().back();
      }
 
-     @FindBy(css = "#wrapper > header > div.header-banner.addOn.stickyOn > div > div:nth-child(3) > div > a > img")
-     WebElement click;
-
      public void setClick(){
          HomePageHandlepopup();
          click.click();
      }
-
-     @FindBy(css = "#primary > div.fragrance-list.fr-category > ul > li:nth-child(2) > a > img")
-     WebElement Exotic;
 
      public void setExotic(){
          setClick();
@@ -167,242 +174,148 @@ public class MainPage extends CommonAPI {
          driver.navigate().back();
      }
 
-      @FindBy(css = "#primary > div.fragrance-list.fr-category > ul > li:nth-child(3) > a > img")
-      WebElement floral;
+     public void setFloral(){
+         setClick();
+         floral.click();
+     }
 
-      @FindBy(css = "#primary > div.fragrance-list.fr-category > ul > li:nth-child(4) > a > img")
-      WebElement fresh;
+     public void setFresh(){
+         setClick();
+         fresh.click();
+     }
 
+     public void setFruit() {
+         setClick();
+         fruit.click();
+     }
 
-      @FindBy(css ="#primary > div.fragrance-list.fr-category > ul > li:nth-child(5) > a > img")
-      WebElement fruit;
-
-
-      @FindBy(css ="#primary > div.fragrance-list.fr-category > ul > li:nth-child(6) > a > img")
-      WebElement gouramand;
-
-
-      @FindBy(css ="#primary > div.fragrance-list.fr-category > ul > li:nth-child(7) > a > img")
-      WebElement warm;
-
-
-      @FindBy(css ="#primary > div.fragrance-list.fr-category > ul > li:nth-child(8) > a > img")
-      WebElement woods;
-
-
-
-    public void selectBodycare() {
-        WebElement Bodycare = null;
-        WebDriverWait wait = new WebDriverWait(driver, 1, 5000);
-        Bodycare = driver.findElement(By.cssSelector("#body-care-dropdown > a"));
-        Bodycare.click();
+     public void setGouramand() {
+        setClick();
+        gouramand.click();
     }
 
-    public void gotobodycare() {
-        WebElement NewBodyCare = null;
-        WebDriverWait wait = new WebDriverWait(driver, 1, 5000);
-        NewBodyCare = driver.findElement(By.xpath("//*[@id=\"secondary\"]/div[2]/div[2]/div[2]/ul[1]/li[1]/a"));
-        NewBodyCare.click();
+    public void setWarm() {
+        setClick();
+        warm.click();
+    }
 
+    public void setWoods() {
+        setClick();
+        woods.click();
+    }
+
+    public void selectBodycare() {
+        HomePageHandlepopup();
+        WebDriverWait wait = new WebDriverWait(driver, 1, 5000);
+        SelectBodyCare.click();
+    }
+
+    public void setgotobodycare() {
+        selectBodycare();
+        SelectNewBodycare.click();
     }
 
     public void product() {
-        WebElement SelectProduct = null;
+        setgotobodycare();
         WebDriverWait wait = new WebDriverWait(driver, 1, 5000);
-        SelectProduct = driver.findElement(By.cssSelector("#\\32 6ee6803b54d53d08711ab72ea > div.product-outline-block > a > div.product-image > div > div > div > img"));
-        wait.until(ExpectedConditions.visibilityOf(SelectProduct));
-        SelectProduct.click();
+        wait.until(ExpectedConditions.visibilityOf(Selectproduct));
+        Selectproduct.click();
         driver.navigate().back();
     }
 
-    public static void type() {
-        WebElement product = null;
+    public void setType() {
+        product();
         WebDriverWait wait = new WebDriverWait(driver, 1, 5000);
-        product = driver.findElement(By.cssSelector("#primary > div.search-result-options.top > div.filter-overflow > div.filters.refinements > div.refinement.productType > h3 > i"));
-        product.click();
+        productType.click();
     }
 
-    public void title() {
-        WebElement goSearch = null;
+    public void setTitle() {
+        setType();
         WebDriverWait wait = new WebDriverWait(driver, 1, 5000);
-        goSearch = driver.findElement(By.cssSelector("#q"));
-        goSearch.sendKeys("PINK PASSIONFRUIT & BANANA FLOWER", Keys.ENTER);
-        driver.findElement(By.cssSelector("#wrapper > div.breadcrumb > span")).click();
+        Title.sendKeys("PINK PASSIONFRUIT & BANANA FLOWER", Keys.ENTER);
+    }
 
-
+    public void selectbreadcrum(){
+        setTitle();
+        breadcrum.click();
     }
 
     public void Productcream() {
-        WebElement Cream = null;
+        selectbreadcrum();
         WebDriverWait wait = new WebDriverWait(driver, 1, 5000);
-        Cream = driver.findElement(By.cssSelector("#\\32 dda07ee14757ccad658ace668 > div.product-outline-block > a > div.product-cont > div.product-name"));
-        Cream.click();
+        productCream.click();
     }
 
-    public void cart() {
-        WebElement getCart = null;
-        getCart = driver.findElement(By.cssSelector("#add-to-cart"));
-        getCart.click();
-
+    public void setCart(){
+        Productcream();
+        cart.click();
     }
 
-    public void checkout() {
-        WebElement cartCheck = null;
+    public void setCheckout() {
+        setCart();
         WebDriverWait wait = new WebDriverWait(driver, 1, 5000);
-        cartCheck = driver.findElement(By.cssSelector("body > div.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-dialog-buttons > div.ui-dialog-buttonpane.ui-widget-content.ui-helper-clearfix > div.ui-dialog-buttonset > button:nth-child(2) > span"));
-        wait.until(ExpectedConditions.visibilityOf(cartCheck));
-        cartCheck.click();
-
+        wait.until(ExpectedConditions.visibilityOf(checkout));
+        checkout.click();
     }
 
-    public void MethodtogobackHome() {
-        WebElement gotoHome = null;
+    public void navigatebackHome() {
+        setCheckout();
         WebDriverWait wait = new WebDriverWait(driver, 1, 5000);
-        gotoHome = driver.findElement(By.cssSelector("#wrapper > header > div.top-banner.stickyOn > div.wrap > div.primary-logo > a > img"));
-        gotoHome.click();
+        navigateBackHome.click();
         driver.navigate().refresh();
     }
 
     public  void shopto() {
-        driver.navigate().back();
-        WebElement gotoShop = null;
-        WebDriverWait wait = new WebDriverWait(driver, 1, 5000);
-        gotoShop = driver.findElement(By.cssSelector("body"));
-        gotoShop.click();
+        HomePageHandlepopup();
+        driver.navigate().refresh();
     }
 
-    public  void gettitlehome() {
-
-        WebElement gettitle = null;
+    public  void gettitlehome(){
+        shopto();
         WebDriverWait wait = new WebDriverWait(driver, 1, 5000);
-        gettitle = driver.findElement(By.cssSelector("#wrapper > header > div.top-banner.stickyOn > div.wrap > div.primary-logo > a > img"));
-        gettitle.click();
-
+        getTitleHome.click();
     }
 
     public void clickonshop() {
-        WebElement clicksoap = null;
-        WebDriverWait wait = new WebDriverWait(driver, 1, 5000);
-        clicksoap = driver.findElement(By.cssSelector("#hand-soaps-dropdown > a"));
-        clicksoap.click();
+        gettitlehome();
+        Clickonshop.click();
     }
 
     public void clickhandsoaps() {
-        WebElement allhandsoaps = null;
-        WebDriverWait wait = new WebDriverWait(driver, 1, 5000);
-        allhandsoaps = driver.findElement(By.cssSelector("#secondary > div.filter-overflow > div.filter-content > div.active-sub-category > ul:nth-child(4) > li:nth-child(1) > a"));
-        allhandsoaps.click();
+        clickonshop();
+        ClickHandsoaps.click();
     }
 
     public void handsoapproductdropdown() {
-        WebElement handproduct = null;
+        clickhandsoaps();
         WebDriverWait wait = new WebDriverWait(driver, 1, 5000);
-        handproduct = driver.findElement(By.cssSelector("#primary > div.search-result-options.top > div.filter-overflow > div.filters.refinements > div.refinement.productType > h3 > i"));
-        handproduct.click();
+        HandsoapDropdown.click();
     }
 
-    public void clickcandleholder() {
-        WebElement candle = null;
-        WebDriverWait wait = new WebDriverWait(driver, 1, 5000);
-        candle = driver.findElement(By.cssSelector("#primary > div.search-result-options.top > div.filter-overflow > div.filters.refinements > div.refinement.productType.open > h3"));
-        candle.click();
+    public void clickcandleholder() throws InterruptedException {
+        Thread.sleep(2000);
+        handsoapproductdropdown();
+        candleHolder.click();
     }
 
-    public void clickfragrancename() {
-        WebElement fragrance = null;
-        WebElement category = null;
-        WebDriverWait wait = new WebDriverWait(driver, 1, 5000);
-        fragrance = driver.findElement(By.cssSelector("#primary > div.search-result-options.top > div.filter-overflow > div.filters.refinements > div.refinement.fragranceName.custom-filter > h3"));
-        fragrance.click();
-        category = driver.findElement(By.cssSelector("#primary > div.search-result-options.top > div.filter-overflow > div.filters.refinements > div.refinement.fragranceCategory > h3 > i"));
-        category.click();
-
+    public void clickfragrancename() throws InterruptedException {
+        Thread.sleep(2000);
+        clickcandleholder();
+        Fragranename.click();
     }
 
-    public void clickfragrancecategory() {
-        WebElement category = null;
-        WebDriverWait wait = new WebDriverWait(driver, 1, 5000);
-        category = driver.findElement(By.cssSelector("#primary > div.search-result-options.top > div.filter-overflow > div.filters.refinements > div.refinement.fragranceCategory > h3 > i"));
-        category.click();
-
+    public void clickFragrance() throws InterruptedException {
+        clickfragrancename();
+        clickonFragrance.click();
     }
 
-    public void clickfoamingsoap() {
-        WebElement foamingsoap = null;
-        WebDriverWait wait = new WebDriverWait(driver, 1, 5000);
-        foamingsoap = driver.findElement(By.cssSelector("#secondary > div.active-sub-category > ul:nth-child(4) > li:nth-child(2) > a"));
-        foamingsoap.click();
-
+    public void clickfragrancecategory() throws InterruptedException {
+        clickFragrance();
+        fragranceCategory.click();
     }
 
-    public void clickexfoliatingsoap() {
-        WebElement exfoliatingsoap = null;
-        WebDriverWait wait = new WebDriverWait(driver, 1, 5000);
-        exfoliatingsoap = driver.findElement(By.cssSelector("#secondary > div.active-sub-category > ul:nth-child(4) > li:nth-child(3) > a"));
-        exfoliatingsoap.click();
+    public void clickfoamingsoap() throws InterruptedException {
+        clickfragrancecategory();
+        selectFoamingSoap.click();
     }
-
-    public void clicknourishingsoap() {
-        WebElement nourishingsoap = null;
-        WebDriverWait wait = new WebDriverWait(driver, 1, 5000);
-        nourishingsoap = driver.findElement(By.cssSelector("#secondary > div.active-sub-category > ul:nth-child(4) > li:nth-child(4) > a"));
-        nourishingsoap.click();
-        driver.navigate().refresh();
-
-    }
-
-    public void clicksoapholder() {
-        WebElement soapholder = null;
-        WebDriverWait wait = new WebDriverWait(driver, 1, 5000);
-        soapholder = driver.findElement(By.cssSelector("#secondary > div.active-sub-category > ul:nth-child(4) > li:nth-child(5) > a"));
-        soapholder.click();
-        driver.navigate().refresh();
-
-    }
-
-    public void clicktulipnotworkingfromhere() {
-        WebElement tulip = null;
-        WebDriverWait wait = new WebDriverWait(driver, 1, 5000);
-        tulip = driver.findElement(By.cssSelector("#\\30 ea9d39d5fb6ada4351384ca10 > div.product-outline-block > a > div.product-cont > div.product-name"));
-        tulip.click();
-        driver.navigate().refresh();
-        driver.navigate().back();
-
-    }
-
-    public void clickhandsantizer() {
-        WebElement sanitizer = null;
-        WebDriverWait wait = new WebDriverWait(driver, 1, 5000);
-        sanitizer = driver.findElement(By.cssSelector("#secondary > div.active-sub-category > ul:nth-child(6) > li:nth-child(1) > a"));
-        sanitizer.click();
-    }
-
-    public void clickpocketbac() {
-        WebElement pocketBac = null;
-        WebDriverWait wait = new WebDriverWait(driver, 1, 5000);
-        pocketBac = driver.findElement(By.cssSelector("#secondary > div.active-sub-category > ul:nth-child(6) > li:nth-child(3) > a"));
-        pocketBac.click();
-    }
-
-    public void clickproductdog() {
-        WebElement dogBarks = null;
-        WebDriverWait wait = new WebDriverWait(driver, 1, 5000);
-        dogBarks = driver.findElement(By.cssSelector("#b43ebd2a7a9be55d555cc526c2 > div.product-outline-block > a > div.product-cont > div.product-name"));
-        dogBarks.click();
-        driver.navigate().back();
-    }
-
-    public void gosignout() {
-        WebElement checkout = null;
-        WebDriverWait wait = new WebDriverWait(driver, 1, 5000);
-        checkout = driver.findElement(By.cssSelector("#wrapper > header > div.top-banner.stickyOn > div.wrap > div.icon-items > ul > li > a > svg"));
-        checkout.click();
-        WebElement clicksignout = null;
-       // clicksignout = driver.findElement(By.cssSelector("#wrapper > header > div.top-banner.stickyOn > div.wrap > div.icon-items > ul > li > div > div > a.header-logout"));
-        clicksignout.click();
-        driver.navigate().refresh();
-        String title = driver.getTitle();
-        System.out.println(driver.getTitle());
-    }
-
 }

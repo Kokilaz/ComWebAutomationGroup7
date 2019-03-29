@@ -1,6 +1,7 @@
 package testHomePage;
 
 import Base.CommonAPI;
+import Reporting.TestLogger;
 import Utility.DataReader;
 import homePage.AmazonHomePageSignin;
 import homePage.AmazonKeywordDriven;
@@ -23,18 +24,21 @@ public class TestAmazonKeyWordDriven extends CommonAPI {
 
     @Test
     public void testSearchbox(){
-    amazonKeywordDriven.setSearchBar();
-    System.out.println(driver.getTitle());
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        amazonKeywordDriven.setSearchBar();
+        System.out.println(driver.getTitle());
     }
 
     @Test
     public void testOrders() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonKeywordDriven.setOrders();
         System.out.println(driver.getTitle());
     }
 
     @Test
     public void selectOptions() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         String[] testOptions = exceldata.getExcelData(path,0) ;
         for(String str : testOptions){
             switch (str) {
