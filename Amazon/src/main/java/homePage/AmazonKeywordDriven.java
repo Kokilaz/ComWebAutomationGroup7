@@ -9,12 +9,13 @@ public class AmazonKeywordDriven  {
     @FindBy(id = "twotabsearchtextbox")
     WebElement searchBar;
 
+    @FindBy(css = "#nav-orders > span.nav-line-2")
+    WebElement Orders;
+
+
     public void setSearchBar(){
         searchBar.sendKeys("Books");
     }
-
-    @FindBy(css = "#nav-orders > span.nav-line-2")
-    WebElement Orders;
 
     public void setOrders() throws InterruptedException {
         Thread.sleep(1000);

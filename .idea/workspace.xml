@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="078a415c-2bf2-4749-905b-bebc8093bb6b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/src/test/java/testHomePage/TestAmazonKeyWordDriven.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/test/java/testHomePage/TestAmazonKeyWordDriven.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/TestHomePage/TestAmazonKeyWordDriven.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/TestHomePage/TestAmazonKeyWordDriven.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BathAndBodyWorks/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/BathAndBodyWorks/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BathAndBodyWorks/src/main/java/homePage/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/BathAndBodyWorks/src/main/java/homePage/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BathAndBodyWorks/src/test/java/testHomePage/MainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/BathAndBodyWorks/src/test/java/testHomePage/MainPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BathAndBodyWorks/target/classes/homePage/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/BathAndBodyWorks/target/classes/homePage/MainPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BathAndBodyWorks/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/BathAndBodyWorks/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BathAndBodyWorks/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/BathAndBodyWorks/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BathAndBodyWorks/target/test-classes/testHomePage/MainPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/BathAndBodyWorks/target/test-classes/testHomePage/MainPageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
-    </list>
+    <list default="true" id="078a415c-2bf2-4749-905b-bebc8093bb6b" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
     <ignored path="$PROJECT_DIR$/Amazon/target/" />
@@ -87,7 +74,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/testHomePage/TestAmazonCategories.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1755">
+            <state relative-caret-position="171">
               <caret line="117" column="16" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -263,7 +250,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553895054348" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553897715711" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -452,7 +439,7 @@
   <component name="ToolWindowManager">
     <frame x="300" y="33" width="1084" height="843" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4990792" visible="true" weight="0.25431862" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4990792" visible="true" weight="0.25431862" />
       <window_info id="Structure" order="1" sideWeight="0.50092083" side_tool="true" weight="0.24390244" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -461,12 +448,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3287037" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3515313" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3515313" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39946738" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49954832" weight="0.24900132" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49954832" visible="true" weight="0.24900132" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5004517" side_tool="true" weight="0.2510232" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3296" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32756326" />
@@ -844,7 +831,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/testHomePage/TestAmazonCategories.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1755">
+        <state relative-caret-position="171">
           <caret line="117" column="16" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
