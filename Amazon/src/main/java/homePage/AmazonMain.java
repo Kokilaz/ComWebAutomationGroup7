@@ -216,9 +216,6 @@ public class AmazonMain extends CommonAPI {
         showAlexaSkills.click();
     }
 
-    //public void setcategoryDropdown() {
-    //    categoryDropdown.click();//}
-
     public void setcategoryGames() {
         categoryGames.click();
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Apps and Games", Keys.ENTER);
@@ -302,8 +299,8 @@ public class AmazonMain extends CommonAPI {
 
     public void HoveroverList() throws InterruptedException {
         Actions action = new Actions(driver);
-        action.moveToElement(List).perform();
-        action.moveToElement(MousehoverSigin).click().perform();
+        action.moveToElement(List).click().perform();
+       // action.moveToElement(MousehoverSigin).click().perform();
         CommonAPI.sleepFor(2);
     }
 
