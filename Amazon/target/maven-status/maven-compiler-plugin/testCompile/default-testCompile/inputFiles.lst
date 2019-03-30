@@ -1,3 +1,5 @@
-/Users/jenniferstephen/ComWebAutomationGroup7/Amazon/src/test/java/TestHomePage/TestAmazonCategories.java
-/Users/jenniferstephen/ComWebAutomationGroup7/Amazon/src/test/java/TestHomePage/TestAmazonHomePageSignin.java
-/Users/jenniferstephen/ComWebAutomationGroup7/Amazon/src/test/java/TestHomePage/TestAmazonMain.java
+/Users/jenniferstephen/ComWebAutomationGroup7/Amazon/src/test/java/testHomePage/TestAmazonCategories.java
+/Users/jenniferstephen/ComWebAutomationGroup7/Amazon/src/test/java/testHomePage/TestAmazonKeyWordDriven.java
+/Users/jenniferstephen/ComWebAutomationGroup7/Amazon/src/test/java/testHomePage/TestAmazonHomePageSignin.java
+/Users/jenniferstephen/ComWebAutomationGroup7/Amazon/src/test/java/testHomePage/TestAmazonMain.java
+/Users/jenniferstephen/ComWebAutomationGroup7/Amazon/src/test/java/TestAmazonSearchFromDb.java

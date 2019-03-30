@@ -13,9 +13,6 @@ public class AmazonMain extends CommonAPI {
     @FindBy(css = "#twotabsearchtextbox")
     WebElement Searchbar;
 
-    @FindBy(css = "#twotabsearchtextbox")
-    WebElement SearchItem;
-
     @FindBy(css = "#nav-hamburger-menu > i")
     WebElement selectgrid;
 
@@ -30,6 +27,9 @@ public class AmazonMain extends CommonAPI {
 
     @FindBy(css = "#nav-link-prime")
     WebElement ClicktryPrime;
+
+    @FindBy(css = "#twotabsearchtextbox")
+    WebElement SearchItem;
 
     @FindBy(css = "#twotabsearchtextbox")
     WebElement showAlexaSkills;
@@ -300,7 +300,7 @@ public class AmazonMain extends CommonAPI {
     public void HoveroverList() throws InterruptedException {
         Actions action = new Actions(driver);
         action.moveToElement(List).click().perform();
-       // action.moveToElement(MousehoverSigin).click().perform();
+        action.moveToElement(MousehoverSigin).click().perform();
         CommonAPI.sleepFor(2);
     }
 
