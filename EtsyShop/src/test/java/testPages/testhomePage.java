@@ -82,6 +82,7 @@ public class testhomePage extends homePage {
         }.getClass().getEnclosingMethod().getName()));
         homepage.Hoverovertoys();
     }
+
     @Test
     public void testArt() throws InterruptedException {
         TestLogger.log(convertToString(new Object() {

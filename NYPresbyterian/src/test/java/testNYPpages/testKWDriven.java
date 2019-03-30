@@ -12,31 +12,24 @@ import org.testng.annotations.Test;
 public class testKWDriven extends CommonAPI {
 
     KWDriven kwdriven;
-    String homePageUrl = "https://www.nyp.org/home";
     DataReader excelData = new DataReader();
-    String Path = "/Users/preethikokila/ComWebAutomationGroup7/NYPresbyterian/src/test/resources/teststeps.xls";
+    String Path = "../NYPresbyterian/src/test/resources/teststeps.xls";
 
     @BeforeMethod
 
     public void initialize() {
         kwdriven = PageFactory.initElements(driver, KWDriven.class);}
-
-
     @Test
-    public void testsearchBox() {
+    public void testSearchBox() {
        kwdriven.SearchBox();
         System.out.println(driver.getTitle());
     }
-
     @Test
     public void testContactUs() {
      kwdriven.contactUs();
         System.out.println(driver.getTitle());
     }
-
-
     @Test
-
     public void SelectSteps() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -44,7 +37,7 @@ public class testKWDriven extends CommonAPI {
         for (String str : testOptions) {
             switch (str) {
                 case "Search":
-                    testsearchBox();
+                    testSearchBox();
                     break;
                 case "Navigate":
                     testContactUs();

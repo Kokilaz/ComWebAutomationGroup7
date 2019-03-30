@@ -1,5 +1,8 @@
-pages/homeNLivingPage.class
+pages/artsPage.class
 pages/EtsyDB.class
+pages/homeNLivingPage.class
+pages/partyPage.class
+pages/ToysPage.class
 pages/clothingPage.class
 pages/homePage.class
 pages/jewelryPage.class

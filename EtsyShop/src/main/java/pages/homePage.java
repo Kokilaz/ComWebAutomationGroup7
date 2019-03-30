@@ -57,9 +57,6 @@ public class homePage extends CommonAPI {
     @FindBy(css = "#join_neu_email_field")
     WebElement SigninBox;
 
-
-
-
     //**********************    Methods    ***************************
 
     public void checkLogo() {

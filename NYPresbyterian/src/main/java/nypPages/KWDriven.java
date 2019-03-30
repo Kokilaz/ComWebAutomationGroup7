@@ -1,5 +1,6 @@
 package nypPages;
 
+import Base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.Keys;
@@ -8,7 +9,7 @@ import org.openqa.selenium.Keys;
 
 public class KWDriven {
 
-    @FindBy(css = "#txtSearch")
+    @FindBy(id = "search-box")
     WebElement searchBox;
 
     @FindBy(xpath= "//*[@id=\"primrow\"]/div/div[2]/ul/li[5]/a")

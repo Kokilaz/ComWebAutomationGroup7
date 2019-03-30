@@ -13,8 +13,6 @@ public class testFIndADoctorPage extends findADoctorPage {
 
     findADoctorPage findadoctorpage;
     String homePageUrl = "https://doctors.nyp.org/";
-    DataReader excelData = new DataReader();
-    String path = "../NYPresbyterian/src/test/resources/NYP Doctors.xls";
 
     @BeforeMethod
     public void initialize() {
@@ -46,13 +44,5 @@ public class testFIndADoctorPage extends findADoctorPage {
         }.getClass().getEnclosingMethod().getName()));
         findadoctorpage.SearchDoctorBox1();
     }
-
-   // @Test
-   //public void NYPDoctors() throws IOException {
-      //  String[] nypdoctors = excelData.fileReader2(path,0);
-               // for (String str : nypdoctors){
-                   // switch (str){
-                       // case ""
-                    //}
 
 }

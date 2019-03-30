@@ -59,9 +59,6 @@ public class mainPage extends CommonAPI {
     @FindBy(xpath = "/html/body/div[2]/div/div/div/div[2]/div[2]/div[1]/div[1]/a/img")
     WebElement UrgentCareButton;
 
-   // @FindBy(xpath = "/html/body/div[2]/div/div/div/div[2]/div[2]/div[1]/div[2]/a/div/div/p[2]")
-   // WebElement HealthMattersVideoButton;
-
     @FindBy(xpath = "/html/body/footer/div/div[2]/div/ul/li[2]/a")
     WebElement NewsRoom;
 

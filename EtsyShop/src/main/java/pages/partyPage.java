@@ -68,9 +68,7 @@ public class partyPage extends CommonAPI {
         holidayCards.click();
     }
 
-    public void checkBlankCards(){
-        blankCards.click();
-    }
+    public void checkBlankCards(){ blankCards.click(); }
 
     public void checkpartySupples(){
         partySupplies.click();
@@ -95,8 +93,4 @@ public class partyPage extends CommonAPI {
     public void checkbakingSupplies(){
         bakingSupplies.click();
     }
-
-
-
-
 }

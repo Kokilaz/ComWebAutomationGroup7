@@ -9,7 +9,7 @@ import pages.partyPage;
 
 public class testPartyPage extends partyPage {
    partyPage partypage;
-    String partyPageUrl = "https://www.etsy.com/?ref=lgo";
+    String partyPageUrl = "https://www.etsy.com/c/wedding-and-party?ref=catnav-10983";
     @BeforeMethod
     public void initialize() {
         driver.navigate().to(partyPageUrl);
@@ -39,10 +39,7 @@ public class testPartyPage extends partyPage {
         }.getClass().getSimpleName()) + " : " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         partypage.checkSaveTheDate();
-
     }
-
-
 
     @Test
     public void testgreetingCards() {
@@ -50,7 +47,6 @@ public class testPartyPage extends partyPage {
         }.getClass().getSimpleName()) + " : " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         partypage.checkgreetingCards();
-
     }
 
     @Test
@@ -60,7 +56,6 @@ public class testPartyPage extends partyPage {
         }.getClass().getEnclosingMethod().getName()));
         partypage.checkHolidayCards();
         driver.navigate().back();
-
     }
 
     @Test
@@ -70,7 +65,6 @@ public class testPartyPage extends partyPage {
         }.getClass().getEnclosingMethod().getName()));
         partypage.checkBlankCards();
         driver.navigate().back();
-
     }
 
     @Test
@@ -80,7 +74,6 @@ public class testPartyPage extends partyPage {
         }.getClass().getEnclosingMethod().getName()));
         partypage.checkpartySupples();
         driver.navigate().back();
-
     }
 
     @Test
@@ -127,9 +120,4 @@ public class testPartyPage extends partyPage {
         partypage.checkbakingSupplies();
         driver.navigate().back();
     }
-
-
-
-
-
 }

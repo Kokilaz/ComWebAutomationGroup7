@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="etsy Automation Script " parallel="tests">
+<suite name="Etsy Automation Script " parallel="false">
 
-<parameter name="useCloudEnv" value="false"/>
-<parameter name="cloudEnvName" value="browserstack"/>
-<parameter name="os" value="MacOS"/>
-<parameter name="os_version" value="10.14"/>
-<parameter name="browserName" value="chrome"/>
-<parameter name="browserVersion" value="60.0"/>
-<parameter name="url" value="https://www.etsy.com/"/>
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="cloudEnvName" value="browserstack"/>
+    <parameter name="os" value="OS X"/>
+    <parameter name="os_version" value="Sierra"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="30.0"/>
+    <parameter name="url" value="https://www.etsy.com/"/>
 
-<test name = "etsy homePage ">
-    <classes>
-        <!-- <class name="homePageTest.MainPageTest"/>-->
-        <class name="testPages.testhomePage"/>
-    </classes>
-</test>
+    <test name = "Etsy">
+        <classes>
+            <class name="testPages.testhomePage"/>
+        </classes>
+    </test>
 
 </suite>

@@ -4,6 +4,7 @@ import Reporting.TestLogger;
 import nypPages.ourServicesPage;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 
@@ -12,8 +13,11 @@ public class testOurServicesPage extends ourServicesPage {
     ourServicesPage ourservicespage;
     String homePageUrl = "https://www.nyp.org/clinical-services";
 
-    @BeforeClass
+    @BeforeMethod
     public void initialize() {
+        TestLogger.log(convertToString(new Object() {
+        }.getClass().getSimpleName()) + " : " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         driver.navigate().to(homePageUrl);
         ourservicespage = PageFactory.initElements(driver, ourServicesPage.class);
     }

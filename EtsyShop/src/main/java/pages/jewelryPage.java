@@ -53,9 +53,6 @@ public class jewelryPage extends CommonAPI {
     @FindBy(xpath = "//*[@id=\"search-filter-reset-form\"]/div[7]/fieldset/div/label[1]/a")
     WebElement AcceptsGiftCard;
 
-
-
-
     //*************************    Methods     *****************************
 
     public void checkaccessories(){
@@ -128,6 +125,4 @@ public class jewelryPage extends CommonAPI {
     public void checkAcceptGiftCard(){
         AcceptsGiftCard.click();
     }
-
-
 }

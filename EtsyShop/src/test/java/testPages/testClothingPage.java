@@ -20,15 +20,6 @@ public class testClothingPage extends clothingPage {
         clothingpage = PageFactory.initElements(driver, clothingPage.class);
     }
 
-    /*@Test
-    public void testClothing(){
-        TestLogger.log(convertToString(new Object() {
-        }.getClass().getSimpleName()) + " : " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        clothingpage.checkClothing();
-
-    }*/
-
     @Test
     public void testclothingTab() throws InterruptedException{
         TestLogger.log(convertToString(new Object() {
@@ -38,15 +29,49 @@ public class testClothingPage extends clothingPage {
     }
 
     @Test
-    public void testWomens(){
+    public void testSeventhBday(){
         TestLogger.log(convertToString(new Object() {
         }.getClass().getSimpleName()) + " : " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        clothingpage.checkWomens();
-
+        clothingpage.checkSeventhBday();
+        driver.navigate().back();
     }
 
+    @Test
+    public void testMonogram(){
+        TestLogger.log(convertToString(new Object() {
+        }.getClass().getSimpleName()) + " : " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        clothingpage.checkMonogram();
+        driver.navigate().back();
+    }
 
+    @Test
+    public void testLVCase(){
+        TestLogger.log(convertToString(new Object() {
+        }.getClass().getSimpleName()) + " : " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        clothingpage.checkLVcase();
+        driver.navigate().back();
+    }
+
+    @Test
+    public void testPurpleDress(){
+        TestLogger.log(convertToString(new Object() {
+        }.getClass().getSimpleName()) + " : " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        clothingpage.checkPurpleDress();
+        driver.navigate().back();
+    }
+
+    @Test
+    public void testBabyShoes(){
+        TestLogger.log(convertToString(new Object() {
+        }.getClass().getSimpleName()) + " : " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        clothingpage.checkBabyShoes();
+        driver.navigate().back();
+    }
 }
 
 
