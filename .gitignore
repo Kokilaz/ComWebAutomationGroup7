@@ -1,0 +1,8 @@
+# Ignoring all idea files to prevent merge conflicts.
+.idea
+
+# Ignoring .DS_Store to prevent merge conflicts
+.DS_Store
+
+# Ignoring all the target files to prevent merge conflicts.
+*/target/*
