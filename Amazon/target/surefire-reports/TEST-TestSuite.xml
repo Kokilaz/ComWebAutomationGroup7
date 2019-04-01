@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="61" failures="0" name="TestSuite" time="149.949" errors="0" skipped="0">
+<testsuite tests="112" failures="0" name="TestSuite" time="269.345" errors="0" skipped="0">
   <properties>
-    <property name="idea.version" value="2018.3.4"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib"/>
     <property name="java.vm.version" value="25.202-b08"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/jenniferstephen/ComWebAutomationGroup7/Amazon"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/jenniferstephen/ComWebAutomationGroup7"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -17,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/jenniferstephen/ComWebAutomationGroup7/Amazon"/>
+    <property name="user.dir" value="/Users/jenniferstephen/ComWebAutomationGroup7"/>
     <property name="java.runtime.version" value="1.8.0_202-b08"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/endorsed"/>
@@ -27,13 +26,15 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/jenniferstephen/Documents/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.6.0/libexec/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/jenniferstephen/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.6.0/libexec/conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.14.3"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.6.0/libexec/lib/jansi-native"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="user.home" value="/Users/jenniferstephen"/>
     <property name="user.timezone" value="America/New_York"/>
@@ -41,11 +42,11 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="user.name" value="jenniferstephen"/>
-    <property name="java.class.path" value="/Users/jenniferstephen/Documents/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.5.2.jar:/Users/jenniferstephen/Documents/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.6.0/libexec/boot/plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2018.3.4 install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -54,7 +55,7 @@
     <property name="java.ext.dirs" value="/Users/jenniferstephen/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="/Users/jenniferstephen/Documents/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.6.0/libexec"/>
     <property name="file.separator" value="/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -63,65 +64,116 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="TestHomePage.TestAmazonHomePageSignin" name="setOpenPageLogin" time="2.69"/>
-  <testcase classname="TestHomePage.TestAmazonHomePageSignin" name="setopenlogin" time="0.465"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getBabyFashion" time="3.595"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getBusinessServices" time="2.703"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getClothingShoes" time="2.318"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getComputers" time="2.968"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getCourses" time="3.266"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getCredit" time="1.889"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getDigitalMusic" time="1.734"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getElectronics" time="2.826"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getGarden" time="2.596"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getGiftCard" time="2.031"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getGrocery" time="3.094"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getHandmade" time="2.037"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getHealth" time="2.332"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getHomeAndKitchen" time="2.428"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getHouseholdandCare" time="2.496"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getIndustrialAndScientific" time="2.322"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getKindle" time="3.81"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getKindleStore" time="2.864"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getLuggageAndTravel" time="2.864"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getLuxuryBeauty" time="1.546"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getMagazineSubscriptions" time="1.981"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getMovies" time="2.999"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getMoviesAndTv" time="2.19"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getMusicalInstruments" time="3.593"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getOfficeProducts" time="2.726"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getPetSupplies" time="3.12"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getPrimeExclusiveSavings" time="2.765"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getPrimePantry" time="2.235"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getPrimeVideo" time="2.435"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getSoftware" time="4.023"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getSportsAndOutdoors" time="2.575"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getToolsHomeImprovements" time="2.916"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getToysAndGames" time="3.866"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getVehicles" time="2.105"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getVideoGames" time="2.924"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getWarehouseDeals" time="1.649"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getfineart" time="1.969"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getitemsofBoys" time="4.027"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getitemsofGirls" time="2.808"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getitemsofMen" time="0.131"/>
-  <testcase classname="TestHomePage.TestAmazonCategories" name="getitemsofWomen" time="2.895"/>
-  <testcase classname="TestHomePage.TestAmazonMain" name="getArtsAutomotive" time="2.79"/>
-  <testcase classname="TestHomePage.TestAmazonMain" name="getAutomotiveParts" time="2.552"/>
-  <testcase classname="TestHomePage.TestAmazonMain" name="getBeautyPersonal" time="3.878"/>
-  <testcase classname="TestHomePage.TestAmazonMain" name="getBooks" time="2.501"/>
-  <testcase classname="TestHomePage.TestAmazonMain" name="getCD" time="2.403"/>
-  <testcase classname="TestHomePage.TestAmazonMain" name="getClicktryPrime" time="1.174"/>
-  <testcase classname="TestHomePage.TestAmazonMain" name="getDeliverto" time="0.191"/>
-  <testcase classname="TestHomePage.TestAmazonMain" name="getSearchbar" time="0.161"/>
-  <testcase classname="TestHomePage.TestAmazonMain" name="getSearchitem" time="2.546"/>
-  <testcase classname="TestHomePage.TestAmazonMain" name="getSearchitems" time="0.195"/>
-  <testcase classname="TestHomePage.TestAmazonMain" name="getamazonFresh" time="2.969"/>
-  <testcase classname="TestHomePage.TestAmazonMain" name="getcategorieBaby" time="2.825"/>
-  <testcase classname="TestHomePage.TestAmazonMain" name="getcategoryAlexa" time="4.387"/>
-  <testcase classname="TestHomePage.TestAmazonMain" name="getcategoryAppliances" time="2.441"/>
-  <testcase classname="TestHomePage.TestAmazonMain" name="getcategoryArtCrafts" time="3.802"/>
-  <testcase classname="TestHomePage.TestAmazonMain" name="getcategoryGames" time="2.722"/>
-  <testcase classname="TestHomePage.TestAmazonMain" name="getselectgridSelectPrime" time="1.097"/>
-  <testcase classname="TestHomePage.TestAmazonMain" name="getshowAlexaSkills" time="0.509"/>
+  <testcase classname="TestAmazonSearchFromDb" name="testSearchDB" time="20.828"/>
+  <testcase classname="testHomePage.TestAmazonHomePageSignin" name="Account" time="0.82"/>
+  <testcase classname="testHomePage.TestAmazonHomePageSignin" name="AmazonPassword" time="0.782"/>
+  <testcase classname="testHomePage.TestAmazonHomePageSignin" name="CreateAccount" time="0.728"/>
+  <testcase classname="testHomePage.TestAmazonHomePageSignin" name="EmailVerification" time="0.955"/>
+  <testcase classname="testHomePage.TestAmazonHomePageSignin" name="HoveroverSignin" time="3.6"/>
+  <testcase classname="testHomePage.TestAmazonHomePageSignin" name="Name" time="0.86"/>
+  <testcase classname="testHomePage.TestAmazonHomePageSignin" name="ReEnterPassword" time="0.961"/>
+  <testcase classname="testHomePage.TestAmazonHomePageSignin" name="Signout" time="0.93"/>
+  <testcase classname="testHomePage.TestAmazonHomePageSignin" name="email" time="1.263"/>
+  <testcase classname="testHomePage.TestAmazonHomePageSignin" name="setOpenPageLogin" time="2.259"/>
+  <testcase classname="testHomePage.TestAmazonHomePageSignin" name="setopenlogin" time="0.345"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getArtsAutomotive" time="2.809"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getBabyFashion" time="4.869"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getBeautyPersonal" time="2.535"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getBusinessServices" time="2.246"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getCategories" time="0.155"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getClothingShoes" time="2.148"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getComputers" time="4.496"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getCourses" time="1.749"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getCredit" time="2.898"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getDigitalMusic" time="4.002"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getElectronics" time="4.253"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getGarden" time="4.087"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getGiftCard" time="2.037"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getGrocery" time="2.377"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getHandmade" time="1.981"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getHealth" time="2.236"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getHomeAndKitchen" time="2.381"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getHouseholdandCare" time="2.291"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getIndustrialAndScientific" time="2.16"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getKindle" time="3.161"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getKindleStore" time="3.203"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getLuggageAndTravel" time="2.362"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getLuxuryBeauty" time="1.854"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getMagazineSubscriptions" time="2.017"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getMovies" time="2.238"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getMoviesAndTv" time="2.188"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getMusicalInstruments" time="3.196"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getOfficeProducts" time="3.143"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getPetSupplies" time="2.606"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getPrimeExclusiveSavings" time="2.014"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getPrimePantry" time="2.051"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getPrimeVideo" time="2.504"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getSoftware" time="2.486"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getSportsAndOutdoors" time="2.356"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getToolsHomeImprovements" time="2.642"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getToysAndGames" time="3.071"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getVehicles" time="2.178"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getVideoGames" time="2.502"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getWarehouseDeals" time="1.815"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getcategorieBaby" time="2.957"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getfineart" time="4.413"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getitemsofBoys" time="3.522"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getitemsofGirls" time="2.536"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getitemsofMen" time="0.199"/>
+  <testcase classname="testHomePage.TestAmazonCategories" name="getitemsofWomen" time="2.391"/>
+  <testcase classname="testHomePage.TestAmazonKeyWordDriven" name="selectOptions" time="2.013"/>
+  <testcase classname="testHomePage.TestAmazonKeyWordDriven" name="testOrders" time="1.684"/>
+  <testcase classname="testHomePage.TestAmazonKeyWordDriven" name="testSearchbox" time="0.231"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="Browsergettitle" time="0.094"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="ContinueToCart" time="6.982"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="DealsToday" time="1.777"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="Giftcards" time="1.205"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="GoTocart" time="6.399"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="HoverOverList" time="2.656"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="Karmalit" time="2.176"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="Navigation" time="7.713"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="Screenshots" time="1.91"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="Sell" time="1.449"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="Sixpmdeals" time="1.95"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="SupportArtisans" time="1.3"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="VideoSearch" time="5.03"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="WholeFoods" time="1.055"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="Youramazon" time="0.52"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="getAmazonDrive" time="0.881"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="getArtsAutomotive" time="2.647"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="getAutomotiveParts" time="2.271"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="getBeautyPersonal" time="2.807"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="getBooks" time="2.695"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="getCD" time="2.176"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="getClicktryPrime" time="0.903"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="getDeliverto" time="0.424"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="getHelp" time="1.461"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="getSearchbar" time="0.44"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="getSearchitem" time="1.839"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="getSearchitems" time="0.363"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="getShopByCategory" time="5.87"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="getabeBooks" time="1.602"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="getamazonFresh" time="2.618"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="getamazonGlobal" time="0.113"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="getamazonInspire" time="1.235"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="getamazonRapids" time="1.525"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="getamazonRestaurants" time="1.197"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="getbookDepository" time="1.82"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="getcategorieBaby" time="2.74"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="getcategoryAlexa" time="3.009"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="getcategoryAppliances" time="2.267"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="getcategoryArtCrafts" time="3.084"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="getcategoryGames" time="3.029"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="getclick" time="2.982"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="getcomixology" time="1.598"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="gethomeService" time="1.14"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="getselectgridSelectPrime" time="1.168"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="getsetAcx" time="0.949"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="getshowAlexaSkills" time="0.172"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="setCredit" time="1.638"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="setKindle" time="3.106"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="setWarehouseDeals" time="1.648"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="setWholeFoods" time="0.947"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="setboxofficemojo" time="1.218"/>
+  <testcase classname="testHomePage.TestAmazonMain" name="sethoveroverprimevideo" time="5.973"/>
 </testsuite>

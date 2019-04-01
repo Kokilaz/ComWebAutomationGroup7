@@ -27,7 +27,7 @@ public class TestAmazonMain extends AmazonMain {
     }
 
     @Test
-    public void Browsergettitle(){
+    public void browsergettitle(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonMain.getTitle();
         String title = driver.getTitle();
@@ -42,9 +42,9 @@ public class TestAmazonMain extends AmazonMain {
     }
 
     @Test
-    public void Navigation(){
+    public void navigation(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        amazonMain.SearchNavigation();
+        amazonMain.searchNavigation();
     }
 
     @Test
@@ -76,10 +76,6 @@ public class TestAmazonMain extends AmazonMain {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonMain.setshowAlexaSkills();
     }
-
-    //@Test
-    // public void getcategoryDropdown(){
-    //  amazonMain.setcategoryDropdown();//}
 
     @Test
     public void getcategoryGames(){
@@ -178,31 +174,31 @@ public class TestAmazonMain extends AmazonMain {
     }
 
     @Test
-    public void HoverOverList() throws InterruptedException {
+    public void gethoverOverList() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        amazonMain.HoveroverList();
+        amazonMain.hoveroverList();
     }
 
     @Test
-    public void VideoSearch(){
+    public void videoSearch(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonMain.setVideoSearch();
     }
 
     @Test
-    public void GoTocart(){
+    public void goTocart(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonMain.setGoToCart();
     }
 
     @Test
-    public void ContinueToCart(){
+    public void continueToCart(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonMain.setContinuetoCart();
     }
 
     @Test
-    public void Screenshots(){
+    public void screenshots(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonMain.setScreenshots();
     }
@@ -214,44 +210,44 @@ public class TestAmazonMain extends AmazonMain {
     }
 
     @Test
-    public void SupportArtisans(){
+    public void supportArtisans(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonMain.setsupport();
 
     }
 
     @Test
-    public void Karmalit(){
+    public void karmalit(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonMain.getkarmalit();
     }
 
     @Test
-    public void Youramazon(){
+    public void yourAmazon(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonMain.setYourAmazon();
     }
 
     @Test
-    public void DealsToday(){
+    public void dealsToday(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonMain.setTodaysDeals();
     }
 
     @Test
-    public void Giftcards(){
+    public void giftCards(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonMain.setGiftcards();
     }
 
     @Test
-    public void WholeFoods(){
+    public void wholeFoods(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonMain.setWholeFoods();
     }
 
     @Test
-    public void Sell(){
+    public void sell(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonMain.setsell();
     }
@@ -275,13 +271,13 @@ public class TestAmazonMain extends AmazonMain {
     }
 
     @Test
-    public void Sixpmdeals() {
+    public void sixPmDeals() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonMain.setSixpmDeals();
     }
 
     @Test
-    public void getabeBooks(){
+    public void getAbeBooks(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonMain.setabeBooks();
     }
@@ -293,49 +289,49 @@ public class TestAmazonMain extends AmazonMain {
     }
 
     @Test
-    public void setboxofficemojo(){
+    public void setBoxofficemojo(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonMain.setboxofficemojo();
     }
 
     @Test
-    public void getcomixology(){
+    public void getComixology(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonMain.setcomixology();
     }
 
     @Test
-    public void getamazonGlobal(){
+    public void getAmazonGlobal(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonMain.setamazonGlobal();
     }
 
     @Test
-    public void gethomeService(){
+    public void getHomeService(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonMain.sethomeService();
     }
 
     @Test
-    public void getamazonInspire(){
+    public void getAmazonInspire(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonMain.setamazonInspire();
     }
 
     @Test
-    public void getamazonRapids(){
+    public void getAmazonRapids(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonMain.setamazonRapids();
     }
 
     @Test
-    public void getamazonRestaurants(){
+    public void getAmazonRestaurants(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonMain.setamazonRestaurants();
     }
 
     @Test
-    public void getbookDepository() {
+    public void getBookDepository() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonMain.setbookDepository();
     }

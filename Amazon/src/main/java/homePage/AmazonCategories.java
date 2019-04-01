@@ -136,18 +136,14 @@ public class AmazonCategories extends CommonAPI {
     @FindBy(xpath = "//option[@value='search-alias=baby-products']")
     WebElement categorieBaby;
 
-
     @FindBy(xpath = "//option[@value='search-alias=automotive']")
     WebElement ArtsAutomotive;
-
 
     @FindBy(xpath ="//option[@value='search-alias=beauty']")
     WebElement BeautyPersonal;
 
-
     @FindBy(css = "#searchDropdownBox")
     WebElement Categories;
-
 
     public void setCategories() {
         List<WebElement> categories = driver.findElements(By.cssSelector("#searchDropdownBox"));
@@ -380,6 +376,5 @@ public class AmazonCategories extends CommonAPI {
         BeautyPersonal.click();
         driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("Beauty & Personal Care", Keys.ENTER);
     }
-
 }
 

@@ -31,7 +31,7 @@ public class TestAmazonCategories extends AmazonCategories {
     }
 
     @Test
-    public void getfineart()throws InterruptedException{
+    public void getFineart()throws InterruptedException{
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonCategories.setfineart();
     }
@@ -287,5 +287,4 @@ public class TestAmazonCategories extends AmazonCategories {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonCategories.setBeautyPersonal();
     }
-
 }

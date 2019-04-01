@@ -30,13 +30,13 @@ public class TestAmazonHomePageSignin extends AmazonHomePageSignin {
     }
 
     @Test
-    public void CreateAccount(){
+    public void createAccount(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonHomePageSignin.setCreateaccount();
     }
 
     @Test
-    public void Name(){
+    public void name(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonHomePageSignin.setYourname();
     }
@@ -48,39 +48,38 @@ public class TestAmazonHomePageSignin extends AmazonHomePageSignin {
     }
 
     @Test
-    public void AmazonPassword(){
+    public void amazonPassword(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonHomePageSignin.setpassword();
     }
 
     @Test
-    public void ReEnterPassword(){
+    public void enterPassword(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        amazonHomePageSignin.ReEnter();
+        amazonHomePageSignin.setReEnter();
     }
 
     @Test
-    public void Account(){
+    public void account(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        amazonHomePageSignin.ReEnter();
+        amazonHomePageSignin.setReEnter();
     }
 
     @Test
-    public void EmailVerification(){
+    public void emailVerification(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        amazonHomePageSignin.ReEnter();
+        amazonHomePageSignin.setReEnter();
     }
 
     @Test
-    public void Signout(){
+    public void setSignout(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         amazonHomePageSignin.signout();
     }
 
     @Test
-    public void HoveroverSignin() throws InterruptedException {
+    public void getHoveroverSignin() throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        amazonHomePageSignin.HoveroverSiginTab();
+        amazonHomePageSignin.hoveroverSiginTab();
     }
-
 }

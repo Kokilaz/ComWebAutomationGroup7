@@ -104,13 +104,13 @@ public class AmazonHomePageSignin extends CommonAPI {
         amazonpassword.sendKeys("abc123");
     }
 
-    public void ReEnter(){
+    public void setReEnter(){
         setpassword();
         enterPassword.sendKeys("abc123");
     }
 
     public void account(){
-        ReEnter();
+        setReEnter();
         cretaeAcccount.click();
     }
 
@@ -125,10 +125,10 @@ public class AmazonHomePageSignin extends CommonAPI {
     }
 
     public void signout(){
-        ReEnter();
+        setReEnter();
     }
 
-    public void HoveroverSiginTab() throws InterruptedException {
+    public void hoveroverSiginTab() throws InterruptedException {
         Actions action = new Actions(driver);
         action.moveToElement(MousehoverSigin).perform();
         Thread.sleep(1000);

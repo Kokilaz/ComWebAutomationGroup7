@@ -180,7 +180,7 @@ public class AmazonMain extends CommonAPI {
         SearchItems.sendKeys("iphone xs");
     }
 
-    public void SearchNavigation() {
+    public void searchNavigation() {
         Searchbar.sendKeys("ps4 games", Keys.ENTER);
         driver.navigate().back();
         driver.navigate().forward();
@@ -297,7 +297,7 @@ public class AmazonMain extends CommonAPI {
         mouseHoverByCSS("body");
     }
 
-    public void HoveroverList() throws InterruptedException {
+    public void hoveroverList() throws InterruptedException {
         Actions action = new Actions(driver);
         action.moveToElement(List).click().perform();
         action.moveToElement(MousehoverSigin).click().perform();
